@@ -108,7 +108,7 @@ Astrophysics • Instrumentation • Spectroscopy • Exoplanets
 ## 🌐 Portfolio & Work
 
 - 🔗 GitHub Projects: (see pinned repositories below)
-- 🔗 Website: https://biswajit1999.github.io/
+- 🔗 Website: [https://biswajit1999.github.io/](https://biswajit1999.github.io/Biswajit_Jana.github.io/)
 
 ---
 
