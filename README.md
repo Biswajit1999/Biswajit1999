@@ -16,8 +16,8 @@ Astrophysics • Instrumentation • Spectroscopy • Exoplanets
 
 ## 🔭 About Me
 
-- MSc Astrophysics (Advanced Research) — University of Hertfordshire  
-- BTech Electronics & Communication Engineering  
+- MSc Astrophysics wit Advanced Research Graduate from University of Hertfordshire, United Kingdom 
+- BTech Electronics & Communication Engineering  from University of Engineering Management, India
 - Research focus: **exoplanet detection, spectroscopy, and precision instrumentation**
 - Building **real-time feedback systems for spectrograph stability (EXOhSPEC)**
 
@@ -29,7 +29,7 @@ Astrophysics • Instrumentation • Spectroscopy • Exoplanets
 
 - Developed a **closed-loop feedback system** using interferometric sensors  
 - Achieved **picometre-level optical path stability**
-- Quantified environmental effects:
+- Quantified environmental effects(given the current setup):
   - 1 hPa → ~0.4 μm OPL change  
   - 1°C → ~6 μm OPL variation  
 - Designed temperature-controlled enclosure achieving **±0.3°C stability**
