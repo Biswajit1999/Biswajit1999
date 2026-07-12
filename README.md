@@ -1,84 +1,144 @@
-<div align="center">
+<h1 align="center">Hi, I'm Biswajit Jana 👋</h1>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Biswajit%20Jana&fontSize=40&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Astrophysics%20%7C%20Precision%20Instrumentation%20%7C%20Exoplanet%20Detection&descAlignY=58&descSize=16" width="100%"/>
-
-<p>
-<a href="https://www.linkedin.com/in/biswajit-jana-27011a151/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:biswajitj998@gmail.com"><img src="https://img.shields.io/badge/Email-2C5364?style=flat-square&logo=gmail&logoColor=white" /></a>
-<a href="https://biswajit1999.github.io/Biswajit_Jana.github.io/"><img src="https://img.shields.io/badge/Portfolio-0F2027?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+<p align="center">
+Astrophysics • Instrumentation • Spectroscopy • Exoplanets
 </p>
 
-</div>
-
-<br/>
-
-## About
-
-MSc Astrophysics researcher at the **Centre for Astrophysics Research, University of Hertfordshire**, working with Prof. Hugh Jones and Prof. Bill Martin on **EXOhSPEC** — a high-resolution radial-velocity spectrograph stabilisation instrument built for extreme precision RV (EPRV) exoplanet detection.
-
-Background in Electronics & Communication Engineering (BTech, University of Engineering and Management), which is why the work sits at the intersection of control systems, hardware interfacing, and observational astrophysics rather than purely on one side of that line.
-
-Currently applying to PhD programmes in EPRV instrumentation and astrophysical instrumentation.
-
-<br/>
-
-## EXOhSPEC — closed-loop spectrograph stabilisation
-
-Closed-loop control combining a thermoelectric cooler (TEC — slow, primary actuator) with tip–tilt adaptive optics (fast, secondary actuator) to hold a high-resolution spectrograph's image position stable against thermal and mechanical drift.
-
-| Configuration | Result |
-|---|---|
-| Hybrid (TEC + AO), 33 h closed-loop run | dY RMS ≈ 0.152 px · 100% of feedback frames within ±0.5 px · zero AO-unload events |
-| TEC-only baseline | dY RMS ≈ 0.316 px — quantifies AO's contribution as roughly halving vertical residual drift |
-| Dominant disturbance | HVAC-driven external temperature cycling (r ≈ −0.71 with dY), which TEC alone cannot fully reject |
-
-A manuscript comparing these drift-correction strategies is in preparation for submission to RASTI.
-
-> *Figures above are pulled from my own experiment logs — worth double-checking against the latest analysis (and confirming you're comfortable making them public pre-publication) before this goes live.*
-
-<br/>
-
-## Featured repositories
-
-| Repository | Description |
-|---|---|
-| [`Master-Thesis-2024`](https://github.com/Biswajit1999/Master-Thesis-2024) | Code from my MSc research project |
-| [`exolight-transit-lab`](https://github.com/Biswajit1999/exolight-transit-lab) | Exoplanet transit light-curve analysis |
-| [`Adaptive_Optics_Wavefront_Lab`](https://github.com/Biswajit1999/Adaptive_Optics_Wavefront_Lab) | Adaptive optics wavefront simulation |
-| [`Reading-Voyager-Data-into-Python-and-Plotting`](https://github.com/Biswajit1999/Reading-Voyager-Data-into-Python-and-Plotting) | Reading and plotting Voyager spacecraft radio data |
-| [`Biswajit_Jana.github.io`](https://github.com/Biswajit1999/Biswajit_Jana.github.io) | Personal academic portfolio site |
-
-<br/>
-
-## Simulation & visualisation lab
-
-An ongoing series of small, focused physics and astrophysics simulations, each isolating one concept — interferometric baselines, the hydrogen 21cm line, gravitational lensing, wormhole geometry, HR diagrams, blackbody radiation, Doppler shift, reaction–diffusion systems, and more. Full, growing list on the [Repositories tab](https://github.com/Biswajit1999?tab=repositories).
-
-<br/>
-
-## Tech stack
-
-| Area | Tools |
-|---|---|
-| Languages | Python, JavaScript / TypeScript, C++ |
-| Instrumentation & control | PID / adaptive control loops, MeComSerial (TEC), serial interfacing (AO, BME), MaxIm DL (win32com) |
-| Data & analysis | NumPy, pandas, Matplotlib, FITS / astropy workflows |
-| Monitoring | Grafana, InfluxDB |
-| Hardware | Arduino, Raspberry Pi |
-
-<br/>
-
-## GitHub activity
-
-<p>
-<img src="https://github-readme-stats.vercel.app/api?username=Biswajit1999&show_icons=true&theme=transparent&hide_border=true&title_color=0F2027&icon_color=2C5364&text_color=333333" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biswajit1999&layout=compact&theme=transparent&hide_border=true&title_color=0F2027&text_color=333333" height="165"/>
+<p align="center">
+  <a href="https://www.linkedin.com/in/biswajit-jana-27011a151/">
+    <img src="https://img.shields.io/badge/LinkedIn-Biswajit_Jana-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <img src="https://img.shields.io/badge/Astrophysics-Research-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Focus-Instrumentation-darkgreen?style=for-the-badge">
 </p>
 
-<br/>
+---
 
-## Get in touch
+## 🔭 About Me
 
-- LinkedIn: [biswajit-jana](https://www.linkedin.com/in/biswajit-jana-27011a151/)
-- Email: biswajitj998@gmail.com
-- Portfolio: [biswajit1999.github.io](https://biswajit1999.github.io/Biswajit_Jana.github.io/)
+- MSc Astrophysics wit Advanced Research Graduate from University of Hertfordshire, United Kingdom 
+- BTech Electronics & Communication Engineering  from University of Engineering Management, India
+- Research focus: **exoplanet detection, spectroscopy, and precision instrumentation**
+- Building **real-time feedback systems for spectrograph stability (EXOhSPEC)**
+
+---
+
+## 🧪 Current Research Work
+
+### EXOhSPEC — Closed-loop Spectrograph Control System
+
+- Developed a **closed-loop feedback system** using interferometric sensors  
+- Achieved **picometre-level optical path stability**
+- Quantified environmental effects(given the current setup):
+  - 1 hPa → ~0.4 μm OPL change  
+  - 1°C → ~6 μm OPL variation  
+- Designed temperature-controlled enclosure achieving **±0.3°C stability**
+- Implementing:
+  - Real-time monitoring (Grafana + InfluxDB)
+  - Web-based instrument control (HTML/CSS/JS)
+  - Adaptive optics for pixel drift correction
+  - PID + temperature-to-OPL modelling
+
+---
+
+## 🚀 Projects
+
+- 🔴 Doppler Shift Visualiser  
+- 🔵 Blackbody Radiation Simulator  
+- 🛰️ Spectrograph Feedback Control System  
+- 📊 Astronomical Data Analysis Tools  
+
+---
+
+## 🧠 Research Interests
+
+- Exoplanet detection (Radial Velocity method)
+- High-resolution spectroscopy
+- Optical instrumentation & interferometry
+- Adaptive optics and feedback control
+- Data-driven astrophysics
+
+---
+
+## 🧑‍🔬 Research Experience
+
+- Exoplanet detection using light curves and radial velocity  
+- Brown dwarf atmospheric modelling (~1100K objects)  
+- Halo T dwarf candidate identification (VISTA, DES, WISE)  
+- Pulsar detection using large FITS datasets  
+
+---
+
+## 🛰️ Internships & Research Programs
+
+- LUMI SPACE — Satellite Laser Ranging analysis  
+- University of Hertfordshire — Brown dwarf discovery project  
+- Raman Research Institute — Radio interferometry  
+- IIT Kharagpur — Embedded systems & drone calibration  
+
+---
+
+## 🧾 Publications
+
+- Springer: Visible Light Communication using Raspberry Pi  
+- IEEE: Priority encoder in QCA  
+- IEMECON: Smart IoT waste system  
+
+---
+
+## 🛠️ Technical Skills
+
+### Programming
+![Python](https://img.shields.io/badge/Python-Scientific-blue)
+![C++](https://img.shields.io/badge/C++-Embedded-orange)
+![JavaScript](https://img.shields.io/badge/JavaScript-Web-yellow)
+
+### Tools & Systems
+![MATLAB](https://img.shields.io/badge/MATLAB-Engineering-red)
+![Arduino](https://img.shields.io/badge/Arduino-IoT-green)
+![RaspberryPi](https://img.shields.io/badge/RaspberryPi-Hardware-darkred)
+
+### Astronomy & Instrumentation
+![Spectroscopy](https://img.shields.io/badge/Spectroscopy-RV-purple)
+![Interferometry](https://img.shields.io/badge/Interferometer-Laser-blue)
+![AdaptiveOptics](https://img.shields.io/badge/Adaptive_Optics-Control-darkgreen)
+
+---
+
+## 🌐 Portfolio & Work
+
+- 🔗 GitHub Projects: (see pinned repositories below)
+- 🔗 Website: [https://biswajit1999.github.io/](https://biswajit1999.github.io/Biswajit_Jana.github.io/)
+
+---
+
+## 🎯 Current Goal
+
+Building a **complete astrophysics + instrumentation portfolio** combining:
+
+- Physics theory  
+- Simulation  
+- Interactive visualisation  
+- Real experimental systems  
+
+---
+
+## 📈 What I'm Working On Right Now
+
+- Multi-repo astrophysics simulation tools  
+- Real-time feedback loop optimisation  
+- Temperature → OPL modelling  
+- Pixel-level stabilisation using AO  
+
+---
+
+## 🤝 Let's Connect
+
+- LinkedIn: https://www.linkedin.com/in/biswajit-jana-27011a151/  
+- Email: biswajitj998@gmail.com  
+
+---
+
+<p align="center">
+  ⭐ If you find my work interesting, feel free to explore my repositories!
+</p>
