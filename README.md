@@ -113,6 +113,18 @@
 </table>
 
 <p align="center">
+  <a href="https://biswajit1999.github.io/exolight-transit-lab/">
+    <img src="https://img.shields.io/badge/Flagship%20Project-Open%20ExoIntel--Prime-0F766E?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open the ExoIntel-Prime live application">
+  </a>
+  <a href="https://github.com/Biswajit1999/exolight-transit-lab">
+    <img src="https://img.shields.io/github/stars/Biswajit1999/exolight-transit-lab?style=for-the-badge&logo=github&label=ExoLight%20Stars" alt="ExoLight Transit Lab stars">
+  </a>
+  <a href="https://github.com/Biswajit1999/exolight-transit-lab/blob/main/docs/SHOWCASE.md">
+    <img src="https://img.shields.io/badge/Project-Showcase-7C3AED?style=for-the-badge&logo=readthedocs&logoColor=white" alt="ExoIntel-Prime project showcase">
+  </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/Biswajit1999/doppler-shift-visualiser">
     <img src="https://img.shields.io/badge/Doppler%20Shift-Visualiser-B91C1C?style=for-the-badge&logo=github&logoColor=white" alt="Doppler Shift Visualiser">
   </a>
