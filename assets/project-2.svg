@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="245" viewBox="0 0 660 245">
+
+<defs>
+  <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#020617"/>
+    <stop offset=".62" stop-color="#0f172a"/>
+    <stop offset="1" stop-color="#a78bfa" stop-opacity=".23"/>
+  </linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="660" height="245" rx="24" fill="url(#pbg)" stroke="#a78bfa" stroke-opacity=".68"/>
+<rect x="1" y="1" width="658" height="62" rx="23" fill="#a78bfa" fill-opacity=".06"/>
+<text x="34" y="54" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="800" fill="#f8fafc">ExoLight Transit Lab</text>
+<text x="34" y="92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#cbd5e1">Interactive exoplanet transit modelling and analysis</text>
+<text x="34" y="115" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#cbd5e1"></text>
+
+<circle cx="478" cy="95" r="58" fill="#f59e0b" fill-opacity=".28" stroke="#fbbf24"/>
+<circle cx="452" cy="95" r="22" fill="#020617"/>
+<path d="M350 164 C395 160 420 160 447 166 C470 172 500 172 535 164 C560 158 590 158 620 162" fill="none" stroke="#a78bfa" stroke-width="4"/>
+<rect x="34" y="185" width="154" height="36" rx="18" fill="#a78bfa" fill-opacity=".13" stroke="#a78bfa"/>
+<text x="57" y="209" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f8fafc">EXPLORE PROJECT  →</text>
+
+</svg>
