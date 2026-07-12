@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="245" viewBox="0 0 660 245">
+
+<defs>
+  <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#020617"/>
+    <stop offset=".62" stop-color="#0f172a"/>
+    <stop offset="1" stop-color="#f59e0b" stop-opacity=".23"/>
+  </linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="660" height="245" rx="24" fill="url(#pbg)" stroke="#f59e0b" stroke-opacity=".68"/>
+<rect x="1" y="1" width="658" height="62" rx="23" fill="#f59e0b" fill-opacity=".06"/>
+<text x="34" y="54" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="800" fill="#f8fafc">Astrolis</text>
+<text x="34" y="92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#cbd5e1">Astronomy dashboard for surveys, alerts and scientific</text>
+<text x="34" y="115" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#cbd5e1"> tools</text>
+
+<g transform="translate(485 106)">
+  <ellipse rx="120" ry="34" fill="none" stroke="#f59e0b" stroke-opacity=".55" transform="rotate(-18)"/>
+  <ellipse rx="92" ry="24" fill="none" stroke="#a78bfa" stroke-opacity=".5" transform="rotate(22)"/>
+  <ellipse rx="56" ry="16" fill="none" stroke="#60a5fa" stroke-opacity=".6" transform="rotate(-35)"/>
+  <circle r="13" fill="#f8fafc"/>
+</g>
+<rect x="34" y="185" width="154" height="36" rx="18" fill="#f59e0b" fill-opacity=".13" stroke="#f59e0b"/>
+<text x="57" y="209" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f8fafc">EXPLORE PROJECT  →</text>
+
+</svg>
