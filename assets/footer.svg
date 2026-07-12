@@ -1,17 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="150" viewBox="0 0 1400 150">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="230" viewBox="0 0 1400 230">
 
 <defs>
-  <linearGradient id="fbg" x1="0" x2="1">
-    <stop offset="0" stop-color="#020617"/><stop offset=".5" stop-color="#312e81"/><stop offset="1" stop-color="#083344"/>
+  <linearGradient id="bg" x1="0" x2="1">
+    <stop offset="0" stop-color="#020617"/>
+    <stop offset=".48" stop-color="#312e81"/>
+    <stop offset="1" stop-color="#083344"/>
   </linearGradient>
   <linearGradient id="line" x1="0" x2="1">
-    <stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset=".50" stop-color="#a78bfa"/>
+    <stop offset="1" stop-color="#f472b6"/>
   </linearGradient>
 </defs>
-<rect width="1400" height="150" rx="26" fill="url(#fbg)"/>
-<path d="M0 118 C250 72 420 148 690 100 S1100 72 1400 110 V150 H0Z" fill="#0f172a" fill-opacity=".65"/>
-<path d="M0 118 C250 72 420 148 690 100 S1100 72 1400 110" fill="none" stroke="url(#line)" stroke-width="3"/>
-<text x="700" y="58" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="22" fill="#e2e8f0">“The universe speaks in light; we build the instruments that listen.”</text>
-<text x="700" y="92" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#94a3b8">EXPLORE · CONNECT · COLLABORATE</text>
-
+<rect width="1400" height="230" rx="28" fill="url(#bg)"/>
+<text x="700" y="68" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="800" fill="#f8fafc">EXPLORE · CONNECT · COLLABORATE</text>
+<text x="700" y="116" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="24" fill="#e2e8f0">“The universe speaks in light; we build the instruments that listen.”</text>
+<path d="M0 184 C240 125 450 220 720 163 S1120 135 1400 178" fill="none" stroke="url(#line)" stroke-width="4"/>
+<path d="M0 184 C240 125 450 220 720 163 S1120 135 1400 178 V230 H0Z" fill="#0f172a" fill-opacity=".52"/>
 </svg>
