@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="410" viewBox="0 0 1400 410">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#020617"/>
+    <stop offset=".42" stop-color="#0f172a"/>
+    <stop offset=".72" stop-color="#1e1b4b"/>
+    <stop offset="1" stop-color="#083344"/>
+  </linearGradient>
+  <linearGradient id="name" x1="0" x2="1">
+    <stop offset="0" stop-color="#f8fafc"/>
+    <stop offset=".45" stop-color="#67e8f9"/>
+    <stop offset=".75" stop-color="#a78bfa"/>
+    <stop offset="1" stop-color="#f8fafc"/>
+  </linearGradient>
+  <linearGradient id="spectrum" x1="0" x2="1">
+    <stop offset="0" stop-color="#60a5fa"/>
+    <stop offset=".25" stop-color="#22d3ee"/>
+    <stop offset=".5" stop-color="#34d399"/>
+    <stop offset=".72" stop-color="#facc15"/>
+    <stop offset="1" stop-color="#fb7185"/>
+  </linearGradient>
+  <radialGradient id="planet" cx=".35" cy=".3" r=".7">
+    <stop offset="0" stop-color="#dbeafe"/>
+    <stop offset=".22" stop-color="#60a5fa"/>
+    <stop offset=".6" stop-color="#312e81"/>
+    <stop offset="1" stop-color="#020617"/>
+  </radialGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#38bdf8" stroke-opacity=".05"/>
+  </pattern>
+</defs>
+<rect width="1400" height="410" rx="30" fill="url(#bg)"/>
+<rect width="1400" height="410" rx="30" fill="url(#grid)"/>
+<g fill="#e0f2fe">
+  <circle cx="82" cy="64" r="1.6"/><circle cx="198" cy="112" r="1"/>
+  <circle cx="355" cy="54" r="1.3"/><circle cx="612" cy="82" r="1"/>
+  <circle cx="760" cy="44" r="1.7"/><circle cx="904" cy="95" r="1.2"/>
+  <circle cx="1150" cy="48" r="1.4"/><circle cx="1290" cy="118" r="1"/>
+  <circle cx="1040" cy="210" r="1.4"/><circle cx="1250" cy="325" r="1.2"/>
+</g>
+<circle cx="1190" cy="205" r="143" fill="url(#planet)" opacity=".95"/>
+<ellipse cx="1190" cy="205" rx="210" ry="62" fill="none" stroke="#67e8f9" stroke-opacity=".28" stroke-width="2" transform="rotate(-18 1190 205)"/>
+<ellipse cx="1190" cy="205" rx="245" ry="82" fill="none" stroke="#a78bfa" stroke-opacity=".16" transform="rotate(-18 1190 205)"/>
+<circle cx="1090" cy="260" r="38" fill="#020617" stroke="#93c5fd" stroke-opacity=".45"/>
+<path d="M670 210 C720 190, 750 235, 790 205 S850 170, 900 208 S965 245, 1015 210" fill="none" stroke="url(#spectrum)" stroke-width="3" filter="url(#glow)"/>
+<g stroke="url(#spectrum)" stroke-opacity=".6">
+  <path d="M700 170V250"/><path d="M735 185V235"/><path d="M780 150V270"/>
+  <path d="M820 172V250"/><path d="M860 135V285"/><path d="M910 176V248"/>
+  <path d="M955 155V266"/><path d="M990 187V234"/>
+</g>
+<text x="78" y="120" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="800" fill="url(#name)">Biswajit Jana</text>
+<text x="82" y="168" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="600" fill="#cbd5e1">ASTROPHYSICS RESEARCHER  ·  INSTRUMENTATION ENGINEER</text>
+<rect x="82" y="205" width="5" height="78" rx="3" fill="url(#spectrum)"/>
+<text x="105" y="230" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" fill="#e2e8f0">Building precision spectroscopy, adaptive optics and scientific</text>
+<text x="105" y="260" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" fill="#e2e8f0">computing tools for astrophysical instrumentation.</text>
+<g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">
+  <rect x="82" y="318" width="182" height="42" rx="21" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".7"/>
+  <circle cx="106" cy="339" r="6" fill="#34d399"/>
+  <text x="122" y="345" fill="#dbeafe">Open to collaborate</text>
+  <rect x="280" y="318" width="198" height="42" rx="21" fill="#0f172a" stroke="#a78bfa" stroke-opacity=".7"/>
+  <text x="306" y="345" fill="#e9d5ff">Precision instrumentation</text>
+</g>
+
+</svg>
