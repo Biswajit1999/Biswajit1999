@@ -1,24 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="660" height="245" viewBox="0 0 660 245">
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="280" viewBox="0 0 660 280">
 
 <defs>
-  <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#020617"/>
     <stop offset=".62" stop-color="#0f172a"/>
-    <stop offset="1" stop-color="#22d3ee" stop-opacity=".23"/>
+    <stop offset="1" stop-color="#2dd4bf" stop-opacity=".25"/>
   </linearGradient>
-  <filter id="g"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="660" height="245" rx="24" fill="url(#pbg)" stroke="#22d3ee" stroke-opacity=".68"/>
-<rect x="1" y="1" width="658" height="62" rx="23" fill="#22d3ee" fill-opacity=".06"/>
-<text x="34" y="54" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="800" fill="#f8fafc">Universe</text>
-<text x="34" y="92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#cbd5e1">AI-powered research and personal intelligence platform</text>
-<text x="34" y="115" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#cbd5e1"></text>
+<rect width="660" height="280" rx="25" fill="url(#bg)" stroke="#2dd4bf" stroke-opacity=".72"/>
+<rect x="1" y="1" width="658" height="68" rx="24" fill="#2dd4bf" fill-opacity=".07"/>
+<text x="36" y="56" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="800" fill="#f8fafc">EXOhSPEC Instrumentation</text>
+<text x="36" y="100" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" fill="#cbd5e1">Closed-loop spectrograph stabilisation, control and spectroscopy.</text>
 
-<ellipse cx="470" cy="100" rx="125" ry="42" fill="none" stroke="#22d3ee" stroke-opacity=".55" transform="rotate(-16 470 100)"/>
-<ellipse cx="470" cy="100" rx="88" ry="30" fill="none" stroke="#a78bfa" stroke-opacity=".45" transform="rotate(26 470 100)"/>
-<circle cx="470" cy="100" r="28" fill="#22d3ee" fill-opacity=".18" stroke="#22d3ee"/>
-<circle cx="583" cy="66" r="7" fill="#f8fafc"/>
-<rect x="34" y="185" width="154" height="36" rx="18" fill="#22d3ee" fill-opacity=".13" stroke="#22d3ee"/>
-<text x="57" y="209" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f8fafc">EXPLORE PROJECT  →</text>
+<path d="M356 170 L385 164 L405 112 L424 172 L447 166 L468 78 L484 174 L515 164 L535 120 L553 171 L578 164 L598 96 L617 171"
+ fill="none" stroke="#2dd4bf" stroke-width="5"/>
+<path d="M350 192H625" stroke="#334155"/>
+<rect x="36" y="224" width="166" height="38" rx="19" fill="#2dd4bf" fill-opacity=".14" stroke="#2dd4bf"/>
+<text x="61" y="249" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="800" fill="#f8fafc">EXPLORE PROJECT  →</text>
 
 </svg>
