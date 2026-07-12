@@ -2,14 +2,17 @@ name: Repair profile README
 
 on:
   push:
+    branches:
+      - main
     paths:
-      - '.github/workflows/repair-profile.yml'
+      - 'PROFILE_REPAIR_TRIGGER.txt'
 
 permissions:
   contents: write
 
 jobs:
   repair:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -36,17 +39,10 @@ jobs:
 
           image = Image.open(source).convert('RGB')
           width, height = image.size
-
-          # Keep the strong hero, research-universe and featured-project areas.
-          # Remove the decorative/fabricated activity metrics from the lower panel.
-          crop_height = min(height, int(width * 1.08))
-          image = image.crop((0, 0, width, crop_height))
-
           if width > 1400:
-              new_height = round(image.height * 1400 / width)
+              new_height = round(height * 1400 / width)
               image = image.resize((1400, new_height), Image.Resampling.LANCZOS)
-
-          image.save(target, 'JPEG', quality=90, optimize=True, progressive=True)
+          image.save(target, 'JPEG', quality=88, optimize=True, progressive=True)
           print(f'Created {target} at {image.size}')
           PY
 
@@ -57,7 +53,7 @@ jobs:
 
           <img src="./assets/profile-dashboard.jpg" width="100%" alt="Biswajit Jana — Astrophysics Researcher and Instrumentation Engineer"/>
 
-          <br/>
+          <br/><br/>
 
           <a href="https://www.linkedin.com/in/biswajit-jana-27011a151/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
           <a href="mailto:biswajitj998@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -73,30 +69,14 @@ jobs:
 
           <br/><br/>
 
-          ### Technology Stack
-
-          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-          <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-          <img src="https://img.shields.io/badge/MATLAB-E16737?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
-          <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-          <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-          <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino"/>
-          <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi"/>
-          <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana"/>
-          <img src="https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white" alt="InfluxDB"/>
-
-          <br/><br/>
-
           > *The universe speaks in light; we build the instruments that listen.*
 
           </div>
           EOF
           sed -i 's/^          //' README.md
 
-      - name: Remove temporary recovery files
-        run: rm -f README_RECOVERY_NOTE.txt assets/profile-top.b64
+      - name: Remove temporary files
+        run: rm -f README_RECOVERY_NOTE.txt assets/profile-top.b64 PROFILE_REPAIR_TRIGGER.txt
 
       - name: Commit repaired profile
         run: |
@@ -104,5 +84,5 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md assets/profile-dashboard.jpg
           git add -u
-          git commit -m 'Repair profile README with raster dashboard' || exit 0
+          git commit -m 'Repair profile README with raster dashboard'
           git push
