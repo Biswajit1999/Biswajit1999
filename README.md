@@ -1,102 +1,201 @@
-# Biswajit Jana
+<div align="center">
 
-**Astrophysics Researcher** · **Instrumentation Engineer** · MSc Centre for Astrophysics Research, University of Hertfordshire
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0f172a,70:312e81,100:06b6d4&height=230&section=header&text=Biswajit%20Jana&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Astrophysics%20Researcher%20%E2%80%A2%20Instrumentation%20Engineer&descAlignY=60&descSize=18"/>
 
----
+<p>
+  <a href="https://www.linkedin.com/in/biswajit-jana-27011a151/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:biswajitj998@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://biswajit1999.github.io/Biswajit_Jana.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Biswajit1999?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore%20My%20Work-111827?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
-## 🔬 About
+### Precision spectroscopy · Adaptive optics · Feedback control · Scientific computing
 
-Working on **EXOhSPEC** — a closed-loop spectrograph stabilisation system combining thermoelectric and adaptive optics for extreme-precision radial-velocity exoplanet detection. Background in Electronics & Communication Engineering.
+<p>
+Building research tools at the intersection of astrophysics, instrumentation, optical physics and computation.
+</p>
 
-Focused on: precision instrumentation, feedback control systems, optical physics, and solving the thermal drift problem that limits exoplanet detection sensitivity.
-
----
-
-## 🎯 Current Focus: EXOhSPEC
-
-Closed-loop architecture combining:
-- **TEC (slow primary actuator)** for thermal stabilization  
-- **Tip–tilt adaptive optics (fast secondary actuator)** for image drift correction  
-- **PID feedback + rolling baseline refit** for real-time control
-
-### Latest Results
-
-| Metric | Value |
-|---|---|
-| Configuration | Hybrid (TEC + AO), 33 h closed-loop |
-| Vertical RMS residual | 0.152 px |
-| Feedback frames within ±0.5 px | 100% |
-| AO-unload events | 0 (zero) |
-
-**Status:** Factorial experiment series complete (V11–V14.2). Manuscript in preparation for RASTI.
+</div>
 
 ---
 
-## 💻 Featured Repositories
+<div align="center">
 
-**Instrumentation & Control**
-- **[Master-Thesis-2024](https://github.com/Biswajit1999/Master-Thesis-2024)** — EXOhSPEC core algorithms, real-time feedback loops, closed-loop architecture
-- **[Adaptive_Optics_Wavefront_Lab](https://github.com/Biswajit1999/Adaptive_Optics_Wavefront_Lab)** — Wavefront sensing simulation and analysis
+## ✦ Research Universe
 
-**Astrophysical Analysis**
-- **[exolight-transit-lab](https://github.com/Biswajit1999/exolight-transit-lab)** — Exoplanet transit photometry pipeline
-- **[Reading-Voyager-Data-into-Python-and-Plotting](https://github.com/Biswajit1999/Reading-Voyager-Data-into-Python-and-Plotting)** — Radio data processing from deep-space telemetry
+<img src="https://img.shields.io/badge/Precision%20Spectroscopy-111827?style=for-the-badge&logo=starship&logoColor=67E8F9"/>
+<img src="https://img.shields.io/badge/Adaptive%20Optics-172554?style=for-the-badge&logo=apachespark&logoColor=93C5FD"/>
+<img src="https://img.shields.io/badge/Feedback%20Control-083344?style=for-the-badge&logo=target&logoColor=5EEAD4"/>
+<img src="https://img.shields.io/badge/Exoplanets-3B0764?style=for-the-badge&logo=planet&logoColor=C4B5FD"/>
+<img src="https://img.shields.io/badge/Scientific%20Computing-312E81?style=for-the-badge&logo=databricks&logoColor=A5B4FC"/>
+<img src="https://img.shields.io/badge/Instrumentation-0F172A?style=for-the-badge&logo=raspberrypi&logoColor=F472B6"/>
 
-**Visualization & Simulation**
-- **[doppler-shift-visualiser](https://github.com/Biswajit1999/doppler-shift-visualiser)** — Interactive RV visualization for teaching
-- **[blackbody-radiation-visualiser](https://github.com/Biswajit1999/blackbody-radiation-visualiser)** — Planck curves, Wien's law, stellar temperatures
-
-[→ Full repository list](https://github.com/Biswajit1999?tab=repositories)
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Featured Projects
 
-**Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Science & Data**  
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A6?style=flat-square&logo=mathworks&logoColor=white)
+### [EXOhSPEC / Master Thesis](https://github.com/Biswajit1999/Master-Thesis-2024)
 
-**Instrumentation & Control**  
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![Raspberry%20Pi](https://img.shields.io/badge/Raspberry%20Pi-A22265?style=flat-square&logo=raspberrypi&logoColor=white)
+Closed-loop spectrograph stabilisation, feedback control and astronomical instrumentation research.
 
-**Monitoring & Visualization**  
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![InfluxDB](https://img.shields.io/badge/InfluxDB-FFA500?style=flat-square&logo=influxdb&logoColor=white)
+<p>
+<a href="https://github.com/Biswajit1999/Master-Thesis-2024">
+<img src="https://img.shields.io/badge/View%20Repository-111827?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+### [Adaptive Optics Wavefront Lab](https://github.com/Biswajit1999/Adaptive_Optics_Wavefront_Lab)
+
+Interactive wavefront sensing, aberration analysis and adaptive-optics experimentation.
+
+<p>
+<a href="https://github.com/Biswajit1999/Adaptive_Optics_Wavefront_Lab">
+<img src="https://img.shields.io/badge/View%20Repository-172554?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [ExoLight Transit Lab](https://github.com/Biswajit1999/exolight-transit-lab)
+
+A modular research toolkit for exoplanet transit modelling, visualisation and analysis.
+
+<p>
+<a href="https://github.com/Biswajit1999/exolight-transit-lab">
+<img src="https://img.shields.io/badge/View%20Repository-083344?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+### [Doppler Shift Visualiser](https://github.com/Biswajit1999/doppler-shift-visualiser)
+
+An interactive tool for exploring stellar Doppler shifts and radial-velocity concepts.
+
+<p>
+<a href="https://github.com/Biswajit1999/doppler-shift-visualiser">
+<img src="https://img.shields.io/badge/View%20Repository-312E81?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Blackbody Radiation Visualiser](https://github.com/Biswajit1999/blackbody-radiation-visualiser)
+
+Interactive Planck curves, Wien's law and stellar-temperature exploration.
+
+<p>
+<a href="https://github.com/Biswajit1999/blackbody-radiation-visualiser">
+<img src="https://img.shields.io/badge/View%20Repository-3B0764?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+### [Voyager Data in Python](https://github.com/Biswajit1999/Reading-Voyager-Data-into-Python-and-Plotting)
+
+Radio and deep-space telemetry processing, visualisation and scientific analysis.
+
+<p>
+<a href="https://github.com/Biswajit1999/Reading-Voyager-Data-into-Python-and-Plotting">
+<img src="https://img.shields.io/badge/View%20Repository-0F172A?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</p>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<a href="https://github.com/Biswajit1999?tab=repositories">
+<img src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-06B6D4?style=for-the-badge&logo=github&logoColor=020617"/>
+</a>
+
+</div>
 
 ---
 
-## 📊 GitHub Activity
+<div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Biswajit1999&theme=default&hide_border=false&include_all_commits=true&count_private=false)
+## 🧩 Technology Stack
 
-![Contribution streak](https://streak-stats.demolab.com/?user=Biswajit1999&theme=default&hide_border=false)
+### Languages
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Biswajit1999&layout=compact&theme=default&hide_border=false)
+<img src="https://skillicons.dev/icons?i=python,cpp,js,ts,matlab&theme=dark"/>
 
----
+### Science, Data & Research
 
-## 🔝 Most Contributed Repositories
+<img src="https://skillicons.dev/icons?i=numpy,pandas,scipy,opencv,git,github&theme=dark"/>
 
-![Top repos](https://github-contributor-stats.vercel.app/api?username=Biswajit1999&limit=5&theme=default&combine_all_yearly_contributions=true)
+### Instrumentation, Monitoring & Web
 
----
+<img src="https://skillicons.dev/icons?i=arduino,raspberrypi,grafana,html,css,tailwind,nextjs&theme=dark"/>
 
-## 🌐 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/biswajit-jana-27011a151/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:biswajitj998@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=github&logoColor=white)](https://biswajit1999.github.io/Biswajit_Jana.github.io/)
+</div>
 
 ---
 
-[![Profile views](https://komarev.com/ghpvc/?username=Biswajit1999&style=flat-square&color=blue)](https://visitcount.itsvg.in)
+<div align="center">
 
+## 📡 GitHub Signal
+
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=Biswajit1999&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biswajit1999&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9"/>
+
+<br/>
+
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=Biswajit1999&bg_color=0D1117&color=67E8F9&line=A78BFA&point=F8FAFC&area=true&hide_border=true"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌌 Explore · Connect · Collaborate
+
+<a href="https://www.linkedin.com/in/biswajit-jana-27011a151/">
+<img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:biswajitj998@gmail.com">
+<img src="https://img.shields.io/badge/Email-Send%20a%20Message-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="https://biswajit1999.github.io/Biswajit_Jana.github.io/">
+<img src="https://img.shields.io/badge/Portfolio-Visit%20Website-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+> *The universe speaks in light; we build the instruments that listen.*
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,45:312e81,100:020617&height=120&section=footer"/>
+
+</div>
