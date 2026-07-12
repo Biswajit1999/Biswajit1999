@@ -1,0 +1,108 @@
+name: Repair profile README
+
+on:
+  push:
+    paths:
+      - '.github/workflows/repair-profile.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Pillow
+        run: python -m pip install --quiet pillow
+
+      - name: Convert dashboard to GitHub-safe JPG
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+
+          source = Path('assets/profile-dashboard.webp')
+          target = Path('assets/profile-dashboard.jpg')
+          if not source.exists():
+              raise SystemExit('Missing assets/profile-dashboard.webp')
+
+          image = Image.open(source).convert('RGB')
+          width, height = image.size
+
+          # Keep the strong hero, research-universe and featured-project areas.
+          # Remove the decorative/fabricated activity metrics from the lower panel.
+          crop_height = min(height, int(width * 1.08))
+          image = image.crop((0, 0, width, crop_height))
+
+          if width > 1400:
+              new_height = round(image.height * 1400 / width)
+              image = image.resize((1400, new_height), Image.Resampling.LANCZOS)
+
+          image.save(target, 'JPEG', quality=90, optimize=True, progressive=True)
+          print(f'Created {target} at {image.size}')
+          PY
+
+      - name: Replace README
+        run: |
+          cat > README.md <<'EOF'
+          <div align="center">
+
+          <img src="./assets/profile-dashboard.jpg" width="100%" alt="Biswajit Jana — Astrophysics Researcher and Instrumentation Engineer"/>
+
+          <br/>
+
+          <a href="https://www.linkedin.com/in/biswajit-jana-27011a151/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+          <a href="mailto:biswajitj998@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+          <a href="https://biswajit1999.github.io/Biswajit_Jana.github.io/"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/></a>
+          <a href="https://github.com/Biswajit1999?tab=repositories"><img src="https://img.shields.io/badge/Repositories-111827?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/></a>
+
+          <br/><br/>
+
+          <a href="https://github.com/Biswajit1999/Master-Thesis-2024"><img src="https://img.shields.io/badge/EXOhSPEC-Explore-A855F7?style=for-the-badge&logo=github&logoColor=white" alt="EXOhSPEC"/></a>
+          <a href="https://github.com/Biswajit1999/Universe"><img src="https://img.shields.io/badge/Universe-Explore-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Universe"/></a>
+          <a href="https://github.com/Biswajit1999/exolight-transit-lab"><img src="https://img.shields.io/badge/ExoLight%20Transit%20Lab-Explore-14B8A6?style=for-the-badge&logo=github&logoColor=white" alt="ExoLight Transit Lab"/></a>
+          <a href="https://github.com/Biswajit1999/NASADIYA-LIGHTCONE"><img src="https://img.shields.io/badge/NASADIYA%20Lightcone-Explore-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="NASADIYA Lightcone"/></a>
+
+          <br/><br/>
+
+          ### Technology Stack
+
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+          <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+          <img src="https://img.shields.io/badge/MATLAB-E16737?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
+          <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+          <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+          <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino"/>
+          <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi"/>
+          <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana"/>
+          <img src="https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white" alt="InfluxDB"/>
+
+          <br/><br/>
+
+          > *The universe speaks in light; we build the instruments that listen.*
+
+          </div>
+          EOF
+          sed -i 's/^          //' README.md
+
+      - name: Remove temporary recovery files
+        run: rm -f README_RECOVERY_NOTE.txt assets/profile-top.b64
+
+      - name: Commit repaired profile
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/profile-dashboard.jpg
+          git add -u
+          git commit -m 'Repair profile README with raster dashboard' || exit 0
+          git push
