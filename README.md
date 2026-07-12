@@ -1,6 +1,10 @@
 <h1 align="center">Hi, I'm Biswajit Jana 👋</h1>
 
-<h3 align="center">Astrophysics Researcher · Instrumentation Engineer</h3>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=7C3AED&center=true&vCenter=true&width=760&lines=Astrophysics+Researcher+%26+Instrumentation+Engineer;Precision+spectroscopy+%26+instrumentation;Closed-loop+control+for+EXOhSPEC;Exoplanet+detection+%26+radial+velocity;Scientific+computing+for+astronomy" alt="Research focus animation">
+  </a>
+</p>
 
 <p align="center">
   Precision Spectroscopy · Exoplanets · Active Optics · Feedback Control
@@ -51,6 +55,20 @@
   <img src="https://img.shields.io/badge/Astronomical%20Instrumentation-111827?style=for-the-badge" alt="Astronomical instrumentation">
 </p>
 
+### Research Workflow
+
+<p align="center">
+  <img src="https://img.shields.io/badge/01-Interferometric%20Sensing-1E3A8A?style=flat-square" alt="Interferometric sensing">
+  ➜
+  <img src="https://img.shields.io/badge/02-Environmental%20Monitoring-0F766E?style=flat-square" alt="Environmental monitoring">
+  ➜
+  <img src="https://img.shields.io/badge/03-Feedback%20Control-047857?style=flat-square" alt="Feedback control">
+  ➜
+  <img src="https://img.shields.io/badge/04-Image%20Stability-7C3AED?style=flat-square" alt="Image stability">
+  ➜
+  <img src="https://img.shields.io/badge/05-Precision%20Spectroscopy-B91C1C?style=flat-square" alt="Precision spectroscopy">
+</p>
+
 ---
 
 ## 🧪 Current Research Work
@@ -65,16 +83,46 @@
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Research & Software
 
-| Project | Focus |
-|---|---|
-| [![EXOhSPEC](https://img.shields.io/badge/EXOhSPEC-Master%20Thesis-7C3AED?style=for-the-badge&logo=github)](https://github.com/Biswajit1999/Master-Thesis-2024) | Spectrograph stabilisation, feedback control and instrumentation |
-| [![Active Optics Lab](https://img.shields.io/badge/Active%20Optics-Wavefront%20Lab-0369A1?style=for-the-badge&logo=github)](https://github.com/Biswajit1999/Adaptive_Optics_Wavefront_Lab) | Wavefront sensing, aberrations and optical control |
-| [![ExoLight](https://img.shields.io/badge/ExoLight-Transit%20Lab-0F766E?style=for-the-badge&logo=github)](https://github.com/Biswajit1999/exolight-transit-lab) | Exoplanet transit modelling and visualisation |
-| [![NASADIYA](https://img.shields.io/badge/NASADIYA-Lightcone-1D4ED8?style=for-the-badge&logo=github)](https://github.com/Biswajit1999/NASADIYA-LIGHTCONE) | Three-dimensional exploration of cosmic structure |
-| [![Doppler Visualiser](https://img.shields.io/badge/Doppler%20Shift-Visualiser-B91C1C?style=for-the-badge&logo=github)](https://github.com/Biswajit1999/doppler-shift-visualiser) | Stellar Doppler shifts and radial-velocity concepts |
-| [![Blackbody Visualiser](https://img.shields.io/badge/Blackbody%20Radiation-Visualiser-D97706?style=for-the-badge&logo=github)](https://github.com/Biswajit1999/blackbody-radiation-visualiser) | Planck curves, Wien's law and stellar temperatures |
+<table>
+<tr>
+<td width="50%">
+<a href="https://github.com/Biswajit1999/Master-Thesis-2024">
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=Biswajit1999&repo=Master-Thesis-2024&theme=tokyonight&hide_border=true" width="100%" alt="EXOhSPEC Master Thesis repository">
+</a>
+</td>
+<td width="50%">
+<a href="https://github.com/Biswajit1999/Adaptive_Optics_Wavefront_Lab">
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=Biswajit1999&repo=Adaptive_Optics_Wavefront_Lab&theme=tokyonight&hide_border=true" width="100%" alt="Active Optics Wavefront Lab repository">
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/Biswajit1999/exolight-transit-lab">
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=Biswajit1999&repo=exolight-transit-lab&theme=tokyonight&hide_border=true" width="100%" alt="ExoLight Transit Lab repository">
+</a>
+</td>
+<td width="50%">
+<a href="https://github.com/Biswajit1999/NASADIYA-LIGHTCONE">
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=Biswajit1999&repo=NASADIYA-LIGHTCONE&theme=tokyonight&hide_border=true" width="100%" alt="NASADIYA Lightcone repository">
+</a>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/Biswajit1999/doppler-shift-visualiser">
+    <img src="https://img.shields.io/badge/Doppler%20Shift-Visualiser-B91C1C?style=for-the-badge&logo=github&logoColor=white" alt="Doppler Shift Visualiser">
+  </a>
+  <a href="https://github.com/Biswajit1999/blackbody-radiation-visualiser">
+    <img src="https://img.shields.io/badge/Blackbody%20Radiation-Visualiser-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Blackbody Radiation Visualiser">
+  </a>
+  <a href="https://github.com/Biswajit1999/interactive-hr-diagram-lab">
+    <img src="https://img.shields.io/badge/Interactive%20HR%20Diagram-Stellar%20Evolution-EC4899?style=for-the-badge&logo=github&logoColor=white" alt="Interactive HR Diagram">
+  </a>
+</p>
 
 ---
 
@@ -146,6 +194,10 @@
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Biswajit1999&theme=tokyonight&hide_border=true" alt="Biswajit's GitHub contribution streak">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Biswajit1999&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="100%" alt="Biswajit's GitHub contribution activity graph">
 </p>
 
 ---
