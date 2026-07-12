@@ -1,25 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="280" viewBox="0 0 1400 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="238" viewBox="0 0 1400 238">
 
 <defs>
-  <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#020617"/><stop offset="1" stop-color="#111827"/>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#020617"/>
+    <stop offset="1" stop-color="#111827"/>
   </linearGradient>
-  <filter id="ts"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".35"/></filter>
 </defs>
-<rect width="1400" height="280" rx="28" fill="url(#tbg)" stroke="#334155"/>
-<text x="52" y="56" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#f8fafc">TECHNOLOGY CONSTELLATION</text>
-<text x="52" y="86" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#94a3b8">Languages, scientific computing, instrumentation and interface tools</text>
+<rect width="1400" height="238" rx="28" fill="url(#bg)" stroke="#334155"/>
+<text x="54" y="58" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="800" fill="#f8fafc">TECHNOLOGY CONSTELLATION</text>
+<text x="54" y="90" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#94a3b8">Scientific computing · Instrumentation · Data · Interfaces</text>
 
-<g filter="url(#ts)"><rect x="52" y="118" width="190" height="50" rx="14" fill="#0b1120" stroke="#3776AB" stroke-opacity=".72"/><circle cx="80" cy="143" r="12" fill="#3776AB"/><text x="102" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Python</text></g>
-<g filter="url(#ts)"><rect x="270" y="118" width="190" height="50" rx="14" fill="#0b1120" stroke="#00599C" stroke-opacity=".72"/><circle cx="298" cy="143" r="12" fill="#00599C"/><text x="320" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">C++</text></g>
-<g filter="url(#ts)"><rect x="488" y="118" width="190" height="50" rx="14" fill="#0b1120" stroke="#F7DF1E" stroke-opacity=".72"/><circle cx="516" cy="143" r="12" fill="#F7DF1E"/><text x="538" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">JavaScript</text></g>
-<g filter="url(#ts)"><rect x="706" y="118" width="190" height="50" rx="14" fill="#0b1120" stroke="#3178C6" stroke-opacity=".72"/><circle cx="734" cy="143" r="12" fill="#3178C6"/><text x="756" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">TypeScript</text></g>
-<g filter="url(#ts)"><rect x="924" y="118" width="190" height="50" rx="14" fill="#0b1120" stroke="#E16737" stroke-opacity=".72"/><circle cx="952" cy="143" r="12" fill="#E16737"/><text x="974" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">MATLAB</text></g>
-<g filter="url(#ts)"><rect x="1142" y="118" width="190" height="50" rx="14" fill="#0b1120" stroke="#4D77CF" stroke-opacity=".72"/><circle cx="1170" cy="143" r="12" fill="#4D77CF"/><text x="1192" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">NumPy</text></g>
-<g filter="url(#ts)"><rect x="52" y="190" width="190" height="50" rx="14" fill="#0b1120" stroke="#8B5CF6" stroke-opacity=".72"/><circle cx="80" cy="215" r="12" fill="#8B5CF6"/><text x="102" y="221" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Pandas</text></g>
-<g filter="url(#ts)"><rect x="270" y="190" width="190" height="50" rx="14" fill="#0b1120" stroke="#00979D" stroke-opacity=".72"/><circle cx="298" cy="215" r="12" fill="#00979D"/><text x="320" y="221" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Arduino</text></g>
-<g filter="url(#ts)"><rect x="488" y="190" width="190" height="50" rx="14" fill="#0b1120" stroke="#C51A4A" stroke-opacity=".72"/><circle cx="516" cy="215" r="12" fill="#C51A4A"/><text x="538" y="221" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Raspberry Pi</text></g>
-<g filter="url(#ts)"><rect x="706" y="190" width="190" height="50" rx="14" fill="#0b1120" stroke="#F46800" stroke-opacity=".72"/><circle cx="734" cy="215" r="12" fill="#F46800"/><text x="756" y="221" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Grafana</text></g>
-<g filter="url(#ts)"><rect x="924" y="190" width="190" height="50" rx="14" fill="#0b1120" stroke="#22ADF6" stroke-opacity=".72"/><circle cx="952" cy="215" r="12" fill="#22ADF6"/><text x="974" y="221" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">InfluxDB</text></g>
-<g filter="url(#ts)"><rect x="1142" y="190" width="190" height="50" rx="14" fill="#0b1120" stroke="#38BDF8" stroke-opacity=".72"/><circle cx="1170" cy="215" r="12" fill="#38BDF8"/><text x="1192" y="221" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Tailwind</text></g>
+<rect x="54" y="122" width="190" height="42" rx="13" fill="#0b1120" stroke="#3776AB" stroke-opacity=".72"/>
+<circle cx="79" cy="143" r="10" fill="#3776AB"/>
+<text x="99" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Python</text>
+<rect x="272" y="122" width="190" height="42" rx="13" fill="#0b1120" stroke="#00599C" stroke-opacity=".72"/>
+<circle cx="297" cy="143" r="10" fill="#00599C"/>
+<text x="317" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">C++</text>
+<rect x="490" y="122" width="190" height="42" rx="13" fill="#0b1120" stroke="#F7DF1E" stroke-opacity=".72"/>
+<circle cx="515" cy="143" r="10" fill="#F7DF1E"/>
+<text x="535" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">JavaScript</text>
+<rect x="708" y="122" width="190" height="42" rx="13" fill="#0b1120" stroke="#3178C6" stroke-opacity=".72"/>
+<circle cx="733" cy="143" r="10" fill="#3178C6"/>
+<text x="753" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">TypeScript</text>
+<rect x="926" y="122" width="190" height="42" rx="13" fill="#0b1120" stroke="#E16737" stroke-opacity=".72"/>
+<circle cx="951" cy="143" r="10" fill="#E16737"/>
+<text x="971" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">MATLAB</text>
+<rect x="1144" y="122" width="190" height="42" rx="13" fill="#0b1120" stroke="#4D77CF" stroke-opacity=".72"/>
+<circle cx="1169" cy="143" r="10" fill="#4D77CF"/>
+<text x="1189" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">NumPy</text>
+<rect x="54" y="180" width="190" height="42" rx="13" fill="#0b1120" stroke="#8B5CF6" stroke-opacity=".72"/>
+<circle cx="79" cy="201" r="10" fill="#8B5CF6"/>
+<text x="99" y="207" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Pandas</text>
+<rect x="272" y="180" width="190" height="42" rx="13" fill="#0b1120" stroke="#00979D" stroke-opacity=".72"/>
+<circle cx="297" cy="201" r="10" fill="#00979D"/>
+<text x="317" y="207" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Arduino</text>
+<rect x="490" y="180" width="190" height="42" rx="13" fill="#0b1120" stroke="#C51A4A" stroke-opacity=".72"/>
+<circle cx="515" cy="201" r="10" fill="#C51A4A"/>
+<text x="535" y="207" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Raspberry Pi</text>
+<rect x="708" y="180" width="190" height="42" rx="13" fill="#0b1120" stroke="#F46800" stroke-opacity=".72"/>
+<circle cx="733" cy="201" r="10" fill="#F46800"/>
+<text x="753" y="207" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Grafana</text>
+<rect x="926" y="180" width="190" height="42" rx="13" fill="#0b1120" stroke="#22ADF6" stroke-opacity=".72"/>
+<circle cx="951" cy="201" r="10" fill="#22ADF6"/>
+<text x="971" y="207" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">InfluxDB</text>
+<rect x="1144" y="180" width="190" height="42" rx="13" fill="#0b1120" stroke="#38BDF8" stroke-opacity=".72"/>
+<circle cx="1169" cy="201" r="10" fill="#38BDF8"/>
+<text x="1189" y="207" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Tailwind</text>
 </svg>
