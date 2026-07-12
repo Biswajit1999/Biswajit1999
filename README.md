@@ -36,7 +36,7 @@
 ## 🔭 About Me
 
 - MSc **Astrophysics with Advanced Research**, University of Hertfordshire, United Kingdom
-- B.Tech **Electronics & Communication Engineering**, University of Engineering & Management, India
+- B.Tech **Electronics & Communication Engineering**, University of Engineering & Management (UEM), India
 - Research focus: **exoplanet detection, spectroscopy and precision instrumentation**
 - Developing **real-time feedback systems for spectrograph stability through EXOhSPEC**
 
