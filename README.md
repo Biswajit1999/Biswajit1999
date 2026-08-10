@@ -246,3 +246,7 @@ Building an astrophysics and instrumentation portfolio that connects:
 <p align="center">
   ⭐ Explore the repositories below for the complete research, code and documentation.
 </p>
+
+## Research Quality Upgrade
+
+See [RESEARCH_QUALITY.md](RESEARCH_QUALITY.md) for the validation layer, reference anchors, equations and research boundaries added to this repository.

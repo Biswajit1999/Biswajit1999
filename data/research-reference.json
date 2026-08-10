@@ -1,0 +1,28 @@
+{
+  "title": "Biswajit Jana GitHub Profile",
+  "description": "GitHub profile README for Biswajit Jana, highlighting astrophysics, instrumentation, data analysis and scientific software projects.",
+  "equations": [
+    "Repository portfolio coverage",
+    "Research area taxonomy"
+  ],
+  "references": [
+    "Smith, A.M. et al., 2016. Software citation principles. PeerJ Computer Science, 2, p.e86."
+  ],
+  "anchors": [
+    {
+      "x": 1,
+      "y": 5,
+      "label": "core research projects"
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "label": "visual labs"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "label": "notebooks and reports"
+    }
+  ]
+}
