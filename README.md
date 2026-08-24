@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/orbital-telemetry.svg" width="100%" alt="Animated orbital research telemetry for Biswajit Jana">
+  <img src="assets/binary-earth-radar.gif" width="100%" alt="Animated binary portrait and deep-space radar searching for an Earth analogue">
 </p>
 
 <h1 align="center">Hi, I'm Biswajit Jana 👋</h1>
