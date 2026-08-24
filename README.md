@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/orbital-telemetry.svg" width="100%" alt="Animated orbital research telemetry for Biswajit Jana">
+</p>
+
 <h1 align="center">Hi, I'm Biswajit Jana 👋</h1>
 
 <p align="center">
@@ -215,6 +219,14 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Biswajit1999&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="100%" alt="Biswajit's GitHub contribution activity graph">
 </p>
+
+### 🐍 Contribution Orbit
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Biswajit1999/Biswajit1999/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Biswajit1999/Biswajit1999/output/github-contribution-grid-snake.svg">
+  <img width="100%" alt="Animated contribution graph" src="https://raw.githubusercontent.com/Biswajit1999/Biswajit1999/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
