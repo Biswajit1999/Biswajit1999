@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">NASADIYA Lightcone animated visual</title>
+<desc id="desc">Animated lightcone visualization from early cosmic time toward the modern universe.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b17"/><stop offset=".58" stop-color="#11152b"/><stop offset="1" stop-color="#09131f"/></linearGradient>
+  <linearGradient id="cone" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7c3aed" stop-opacity=".05"/><stop offset=".5" stop-color="#8b5cf6" stop-opacity=".18"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".11"/></linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="620" rx="28" fill="url(#bg)"/>
+<rect x="26" y="26" width="1148" height="568" rx="22" fill="none" stroke="#313853"/>
+<text x="58" y="78" fill="#f8fafc" font-size="34" font-family="Inter,Segoe UI,sans-serif" font-weight="700">NASADIYA-LIGHTCONE</text>
+<text x="58" y="112" fill="#a8b2c8" font-size="18" font-family="Inter,Segoe UI,sans-serif">Interactive visual cosmology • cosmic time • structure • perspective</text>
+
+<g transform="translate(70 160)">
+  <polygon points="40,190 995,48 995,332" fill="url(#cone)" stroke="#667085" stroke-width="1.5"/>
+  <line x1="40" y1="190" x2="995" y2="190" stroke="#56627a" stroke-dasharray="10 10" opacity=".8"/>
+  <g fill="none" stroke="#4e5f80" opacity=".75">
+    <ellipse cx="250" cy="190" rx="34" ry="84"/><ellipse cx="460" cy="190" rx="58" ry="112"/><ellipse cx="690" cy="190" rx="85" ry="128"/><ellipse cx="910" cy="190" rx="111" ry="139"/>
+  </g>
+  <circle cx="40" cy="190" r="8" fill="#f8fafc" filter="url(#g)"><animate attributeName="r" values="7;12;7" dur="2.5s" repeatCount="indefinite"/></circle>
+  <g fill="#c4b5fd" opacity=".82">
+    <circle cx="216" cy="150" r="3"/><circle cx="268" cy="220" r="4"/><circle cx="349" cy="126" r="3"/><circle cx="402" cy="234" r="4"/><circle cx="485" cy="170" r="3"/><circle cx="543" cy="116" r="3"/><circle cx="611" cy="256" r="4"/><circle cx="678" cy="145" r="3"/><circle cx="740" cy="218" r="4"/><circle cx="815" cy="106" r="3"/><circle cx="865" cy="244" r="3"/><circle cx="938" cy="160" r="4"/>
+  </g>
+  <g fill="#67e8f9" filter="url(#g)">
+    <circle r="5"><animateMotion dur="8s" repeatCount="indefinite" path="M80 186 C280 128 520 242 770 154 C860 124 925 140 980 177"/></circle>
+    <circle r="4"><animateMotion dur="10s" begin="-3s" repeatCount="indefinite" path="M88 194 C310 252 512 108 758 222 C842 260 920 226 982 201"/></circle>
+  </g>
+  <g font-family="Inter,Segoe UI,sans-serif" fill="#dbe4ef" font-size="15" text-anchor="middle">
+    <text x="80" y="385">early universe</text><text x="320" y="385">cosmic dawn</text><text x="575" y="385">structure growth</text><text x="830" y="385">galaxy era</text><text x="985" y="385">today</text>
+  </g>
+  <g stroke="#46556f" stroke-width="1"><line x1="80" y1="350" x2="80" y2="365"/><line x1="320" y1="350" x2="320" y2="365"/><line x1="575" y1="350" x2="575" y2="365"/><line x1="830" y1="350" x2="830" y2="365"/><line x1="985" y1="350" x2="985" y2="365"/></g>
+</g>
+<text x="58" y="578" fill="#7f8da5" font-size="14" font-family="Inter,Segoe UI,sans-serif">Visual simulation preview — explore the repository for the full interactive experience.</text>
+</svg>
