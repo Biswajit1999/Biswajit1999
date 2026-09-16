@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">PID Loop Lab animated simulation preview</title>
+<desc id="desc">Animated illustrative PID step responses and controller block diagram.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06121d"/><stop offset="1" stop-color="#0a1b27"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="620" rx="28" fill="url(#bg)"/>
+<rect x="26" y="26" width="1148" height="568" rx="22" fill="none" stroke="#2b4252"/>
+<text x="58" y="78" fill="#f8fafc" font-size="34" font-family="Inter,Segoe UI,sans-serif" font-weight="700">PID Loop Lab</text>
+<text x="58" y="112" fill="#9fb3c8" font-size="18" font-family="Inter,Segoe UI,sans-serif">Simulate • tune • inspect • understand closed-loop behaviour</text>
+
+<g transform="translate(58 160)">
+  <rect width="690" height="370" rx="18" fill="#091925" stroke="#244151"/>
+  <text x="24" y="34" fill="#dce8f2" font-size="17" font-family="Inter,Segoe UI,sans-serif" font-weight="600">Illustrative step-response comparison</text>
+  <line x1="74" y1="302" x2="646" y2="302" stroke="#536879"/><line x1="74" y1="68" x2="74" y2="302" stroke="#536879"/>
+  <line x1="74" y1="157" x2="646" y2="157" stroke="#7590a3" stroke-dasharray="8 8" opacity=".55"/>
+  <text x="83" y="147" fill="#7f95a6" font-size="12" font-family="Inter,Segoe UI,sans-serif">setpoint</text>
+  <path d="M74 302 C112 295 142 238 171 176 C203 108 236 98 269 130 C302 162 326 188 361 172 C398 156 433 151 470 158 C518 167 575 156 646 157" fill="none" stroke="#fb7185" stroke-width="4" stroke-linecap="round" stroke-dasharray="900" stroke-dashoffset="900"><animate attributeName="stroke-dashoffset" values="900;0;0" keyTimes="0;.65;1" dur="5s" repeatCount="indefinite"/></path>
+  <path d="M74 302 C118 288 151 238 194 195 C240 149 284 155 340 157 C427 160 522 157 646 157" fill="none" stroke="#34d399" stroke-width="4" stroke-linecap="round" stroke-dasharray="900" stroke-dashoffset="900"><animate attributeName="stroke-dashoffset" values="900;0;0" keyTimes="0;.62;1" dur="5s" begin=".4s" repeatCount="indefinite"/></path>
+  <path d="M74 302 C136 298 181 278 232 249 C309 205 392 178 470 165 C528 157 583 156 646 157" fill="none" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" stroke-dasharray="900" stroke-dashoffset="900"><animate attributeName="stroke-dashoffset" values="900;0;0" keyTimes="0;.7;1" dur="5s" begin=".8s" repeatCount="indefinite"/></path>
+  <g font-family="Inter,Segoe UI,sans-serif" font-size="13"><text x="105" y="338" fill="#fb7185">aggressive</text><text x="270" y="338" fill="#34d399">well tuned</text><text x="434" y="338" fill="#60a5fa">sluggish</text></g>
+</g>
+
+<g transform="translate(800 174)" font-family="Inter,Segoe UI,sans-serif">
+  <text x="0" y="20" fill="#dce8f2" font-size="17" font-weight="600">Controller signal flow</text>
+  <circle cx="56" cy="151" r="26" fill="#102536" stroke="#4f7187"/><text x="56" y="157" fill="#fff" text-anchor="middle" font-size="20">Σ</text>
+  <line x1="0" y1="151" x2="30" y2="151" stroke="#8fb4ca" stroke-width="3"/>
+  <text x="0" y="137" fill="#9fb3c8" font-size="13">r(t)</text>
+  <g>
+    <rect x="118" y="68" width="74" height="48" rx="10" fill="#102536" stroke="#60a5fa"/><text x="155" y="99" fill="#dbeafe" text-anchor="middle" font-size="19">Kp</text>
+    <rect x="118" y="127" width="74" height="48" rx="10" fill="#102536" stroke="#34d399"/><text x="155" y="158" fill="#dcfce7" text-anchor="middle" font-size="19">Ki</text>
+    <rect x="118" y="186" width="74" height="48" rx="10" fill="#102536" stroke="#f59e0b"/><text x="155" y="217" fill="#fef3c7" text-anchor="middle" font-size="19">Kd</text>
+  </g>
+  <path d="M82 151 H100 V92 H118 M100 151 H118 M100 151 V210 H118" fill="none" stroke="#8fb4ca" stroke-width="2.5"/>
+  <path d="M192 92 H224 V151 H252 M192 151 H252 M192 210 H224 V151" fill="none" stroke="#8fb4ca" stroke-width="2.5"/>
+  <rect x="252" y="124" width="105" height="54" rx="12" fill="#102536" stroke="#a78bfa"/><text x="304" y="157" fill="#ede9fe" text-anchor="middle" font-size="17">Plant</text>
+  <line x1="357" y1="151" x2="407" y2="151" stroke="#67e8f9" stroke-width="3" stroke-dasharray="8 7"><animate attributeName="stroke-dashoffset" values="0;-30" dur="1.8s" repeatCount="indefinite"/></line>
+  <text x="371" y="137" fill="#9fb3c8" font-size="13">y(t)</text>
+  <path d="M407 151 V286 H56 V177" fill="none" stroke="#4f7187" stroke-width="2" stroke-dasharray="7 7"/>
+  <text x="131" y="315" fill="#7f95a6" font-size="13">feedback closes the loop</text>
+</g>
+<text x="58" y="578" fill="#7f95aa" font-size="14" font-family="Inter,Segoe UI,sans-serif">Illustrative preview only — the repository contains the live deterministic simulator and tuning tools.</text>
+</svg>
