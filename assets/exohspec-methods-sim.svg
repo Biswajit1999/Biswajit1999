@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">EXOhSPEC instrumentation and control methods visual</title>
+<desc id="desc">Conceptual animated optical path and closed-loop control architecture without experimental result values.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07121d"/><stop offset="1" stop-color="#101729"/></linearGradient>
+  <linearGradient id="spec" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#60a5fa"/><stop offset=".35" stop-color="#22d3ee"/><stop offset=".58" stop-color="#34d399"/><stop offset=".78" stop-color="#fbbf24"/><stop offset="1" stop-color="#fb7185"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="620" rx="28" fill="url(#bg)"/>
+<rect x="26" y="26" width="1148" height="568" rx="22" fill="none" stroke="#303b53"/>
+<text x="58" y="78" fill="#f8fafc" font-size="34" font-family="Inter,Segoe UI,sans-serif" font-weight="700">EXOhSPEC — Instrumentation &amp; Control Methods</text>
+<text x="58" y="112" fill="#a3b3c4" font-size="18" font-family="Inter,Segoe UI,sans-serif">Spectrograph instrumentation • sensing • feedback architecture • system stabilisation</text>
+
+<g transform="translate(56 174)">
+  <text x="0" y="42" fill="#a9bdd0" font-size="15" font-family="Inter,Segoe UI,sans-serif">starlight / calibration input</text>
+  <line x1="0" y1="88" x2="125" y2="88" stroke="#f8fafc" stroke-width="4" filter="url(#glow)"/>
+  <circle cx="148" cy="88" r="26" fill="#162536" stroke="#7a8ca0"/>
+  <circle cx="210" cy="88" r="34" fill="#182b3e" stroke="#8ba0b7"/>
+  <path d="M244 88 L338 88" stroke="#dbeafe" stroke-width="5"/>
+  <polygon points="338,46 389,88 338,130" fill="#26374d" stroke="#aab7c8"/>
+  <path d="M389 88 C452 40 512 52 568 82 C621 110 672 119 731 98" fill="none" stroke="url(#spec)" stroke-width="15" stroke-linecap="round" opacity=".9"/>
+  <rect x="742" y="41" width="78" height="120" rx="8" fill="#101e2d" stroke="#8798aa"/>
+  <g stroke="#526c82"><line x1="754" y1="54" x2="807" y2="54"/><line x1="754" y1="72" x2="807" y2="72"/><line x1="754" y1="90" x2="807" y2="90"/><line x1="754" y1="108" x2="807" y2="108"/><line x1="754" y1="126" x2="807" y2="126"/><line x1="754" y1="144" x2="807" y2="144"/></g>
+  <circle r="6" fill="#67e8f9" filter="url(#glow)"><animateMotion dur="4s" repeatCount="indefinite" path="M8 88 L125 88 L148 88 L210 88 L338 88 L389 88 C452 40 512 52 568 82 C621 110 672 119 731 98 L780 98"/></circle>
+  <g font-family="Inter,Segoe UI,sans-serif" fill="#91a6ba" font-size="13" text-anchor="middle"><text x="148" y="145">input optics</text><text x="210" y="145">collimation</text><text x="360" y="153">dispersion</text><text x="780" y="184">detector plane</text></g>
+</g>
+
+<g transform="translate(94 392)" font-family="Inter,Segoe UI,sans-serif">
+  <rect x="0" y="0" width="220" height="92" rx="16" fill="#0c2030" stroke="#3d647b"/><text x="110" y="38" fill="#dbeafe" text-anchor="middle" font-size="18" font-weight="600">Sensing &amp; Monitoring</text><text x="110" y="64" fill="#91a8bc" text-anchor="middle" font-size="13">environment + position telemetry</text>
+  <rect x="396" y="0" width="220" height="92" rx="16" fill="#0c2030" stroke="#4b7e68"/><text x="506" y="38" fill="#dcfce7" text-anchor="middle" font-size="18" font-weight="600">Control Logic</text><text x="506" y="64" fill="#91a8bc" text-anchor="middle" font-size="13">bounded feedback decisions</text>
+  <rect x="792" y="0" width="220" height="92" rx="16" fill="#0c2030" stroke="#6f5c99"/><text x="902" y="38" fill="#ede9fe" text-anchor="middle" font-size="18" font-weight="600">Stabilisation</text><text x="902" y="64" fill="#91a8bc" text-anchor="middle" font-size="13">thermal + optical correction</text>
+  <path d="M220 46 H396 M616 46 H792" stroke="#67e8f9" stroke-width="3" stroke-dasharray="10 8"><animate attributeName="stroke-dashoffset" values="0;-36" dur="2s" repeatCount="indefinite"/></path>
+  <path d="M902 92 V132 H110 V92" fill="none" stroke="#53687d" stroke-width="2" stroke-dasharray="8 7"><animate attributeName="stroke-dashoffset" values="0;30" dur="2.8s" repeatCount="indefinite"/></path>
+  <text x="506" y="160" fill="#7e93a8" text-anchor="middle" font-size="13">closed-loop method view — experimental performance values intentionally omitted here</text>
+</g>
+</svg>
