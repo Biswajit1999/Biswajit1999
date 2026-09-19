@@ -1,11 +1,14 @@
 {
   "name": "biswajit1999",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": false,
-  "description": "Research-quality validation wrapper.",
+  "description": "Validated GitHub profile evidence router for versioned astrophysics and research-software results.",
   "scripts": {
+    "build:evidence": "node scripts/build_evidence_index.mjs",
+    "check:evidence": "node scripts/build_evidence_index.mjs --check",
+    "test": "node --test tests/*.test.mjs",
     "validate:research": "node scripts/validate_repository.mjs",
-    "check": "node scripts/validate_repository.mjs"
+    "check": "npm test && npm run check:evidence && npm run validate:research"
   },
   "author": "Biswajit Jana",
   "license": "MIT"

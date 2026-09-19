@@ -46,6 +46,30 @@
 
 ---
 
+## ✅ Verified Research Evidence
+
+This profile now separates **versioned, reviewer-auditable evidence** from general project discovery. The current pinned snapshot routes to **7 verified upstream records in the 7/50 programme checkpoint** ([central registry v2026.09.19.3](https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3)). Each record includes a research question, generated result, source revision, release, validation evidence and an explicit boundary of inference.
+
+| Repository | Verified release | Evidence focus |
+| --- | --- | --- |
+| [EPRV Spectrograph Landscape](https://github.com/Biswajit1999/eprv-spectrograph-landscape) | [v0.15.0](https://github.com/Biswajit1999/eprv-spectrograph-landscape/releases/tag/v0.15.0) | Resolving power × intrinsic line-width experiment |
+| [ExoLight Transit Lab](https://github.com/Biswajit1999/exolight-transit-lab) | [v1.4.0](https://github.com/Biswajit1999/exolight-transit-lab/releases/tag/v1.4.0) | Correlated-noise interval-coverage experiment |
+| [EXOhSPEC Th–Ar Atlas](https://github.com/Biswajit1999/exohspec-thar-atlas) | [v0.3.0](https://github.com/Biswajit1999/exohspec-thar-atlas/releases/tag/v0.3.0) | Multi-exposure centroid recovery simulation |
+| [Research Evidence Registry](https://github.com/Biswajit1999/Biswajit_Jana.github.io) | [v2026.09.19.3](https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3) | Portfolio-wide claim and release traceability |
+| [LATTICE Radiation Twin](https://github.com/Biswajit1999/lattice-radiation-twin) | [v0.2.0](https://github.com/Biswajit1999/lattice-radiation-twin/releases/tag/v0.2.0) | Negative component-identifiability result |
+| [Finding Earth 2.0](https://github.com/Biswajit1999/finding-earth-2) | [v2.1.2](https://github.com/Biswajit1999/finding-earth-2/releases/tag/v2.1.2) | Objective-conditioned information transfer |
+| [AstroBis](https://github.com/Biswajit1999/AstroBis) | [v1.3.1](https://github.com/Biswajit1999/AstroBis/releases/tag/v1.3.1) | JPL encounter-distance and albedo sensitivity |
+
+[Read the generated evidence index](EVIDENCE.md) · [Inspect the machine-readable source](data/profile-evidence.json) · [Open the live central registry](https://biswajit1999.github.io/Biswajit_Jana.github.io/research-evidence.html)
+
+<p align="center">
+  <img src="assets/profile-evidence-maturity.svg" width="100%" alt="Before and after comparison of eight profile evidence maturity dimensions; composite increases from 36 to 95 out of 100">
+</p>
+
+> **Boundary.** The scores above measure auditable research communication—not scientific merit, peer review or a literal multiplier of research quality. Projects elsewhere on this page are **discovery-only** unless they appear in the verified table. Education, internship and publication summaries are profile narrative; project validation does not independently certify those biographical claims.
+
+---
+
 ## 🔬 Research Focus
 
 <p align="center">
@@ -295,4 +319,4 @@ Building an astrophysics and instrumentation portfolio that connects:
 
 ## Research Quality Upgrade
 
-See [RESEARCH_QUALITY.md](RESEARCH_QUALITY.md) for the validation layer, reference anchors, equations and research boundaries added to this repository.
+See [RESEARCH_QUALITY.md](RESEARCH_QUALITY.md) for the evidence contract, deterministic build, test suite, maturity rubric and research boundaries used by this repository.

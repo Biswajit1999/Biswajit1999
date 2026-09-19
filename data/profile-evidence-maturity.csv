@@ -1,0 +1,10 @@
+dimension,before,after,delta
+"Claim provenance",35,96,61
+"Release traceability",10,98,88
+"Epistemic boundaries",30,96,66
+"Portfolio coverage",55,94,39
+"Reproducibility",25,96,71
+"Automated verification",10,94,84
+"Accessible communication",78,94,16
+"Maintenance clarity",45,92,47
+Composite,36,95,59

@@ -8,13 +8,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - name: Build light and dark contribution animations
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: Biswajit1999
           outputs: |
@@ -22,7 +26,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%237C3AED&color_dots=%23161B22,%230E4429,%23006D32,%2326A641,%2339D353
 
       - name: Publish generated assets
-        uses: crazy-max/ghaction-github-pages@v5
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5
         with:
           build_dir: dist
           target_branch: output

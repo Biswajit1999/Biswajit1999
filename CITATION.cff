@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this profile evidence index, cite the versioned release and the routed source project."
+title: "Biswajit Jana GitHub profile evidence index"
+type: software
+authors:
+  - family-names: Jana
+    given-names: Biswajit
+version: 1.1.0
+date-released: 2026-09-19
+repository-code: "https://github.com/Biswajit1999/Biswajit1999"
+license: MIT

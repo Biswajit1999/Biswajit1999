@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "verifiedDate": "2026-09-19",
+  "profileRelease": "v1.1.0",
+  "sourceRegistry": {
+    "version": "v2026.09.19.3",
+    "url": "https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3",
+    "dataUrl": "https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/download/v2026.09.19.3/research-evidence.json"
+  },
+  "programme": {
+    "completed": 7,
+    "rankedQueue": 50,
+    "upstreamEvidenceRecords": 7,
+    "boundary": "This profile routes to verified evidence records. Repositories outside this index are discovery links and are not represented as having completed the same audit."
+  },
+  "maturity": {
+    "scope": "Auditable research communication, not scientific merit or peer review",
+    "dimensions": [
+      {"name": "Claim provenance", "before": 35, "after": 96},
+      {"name": "Release traceability", "before": 10, "after": 98},
+      {"name": "Epistemic boundaries", "before": 30, "after": 96},
+      {"name": "Portfolio coverage", "before": 55, "after": 94},
+      {"name": "Reproducibility", "before": 25, "after": 96},
+      {"name": "Automated verification", "before": 10, "after": 94},
+      {"name": "Accessible communication", "before": 78, "after": 94},
+      {"name": "Maintenance clarity", "before": 45, "after": 92}
+    ],
+    "compositeBefore": 36,
+    "compositeAfter": 95
+  },
+  "projects": [
+    {
+      "rank": 1,
+      "slug": "eprv-spectrograph-landscape",
+      "title": "EPRV Spectrograph Landscape",
+      "version": "v0.15.0",
+      "sourceRef": "67a0f50",
+      "question": "How strongly does resolving power improve the local photon-limited Doppler bound as intrinsic stellar line width changes?",
+      "result": "R=100,000 to 150,000 improves the controlled bound by 37.1%, 11.1%, and 2.48% for intrinsic widths of 1.0, 2.5, and 5.0 km/s; the broad-line null below 10% is not rejected.",
+      "boundary": "Local synthetic photon-information experiment, not an end-to-end instrument performance forecast.",
+      "repositoryUrl": "https://github.com/Biswajit1999/eprv-spectrograph-landscape",
+      "releaseUrl": "https://github.com/Biswajit1999/eprv-spectrograph-landscape/releases/tag/v0.15.0",
+      "liveUrl": "https://biswajit1999.github.io/eprv-spectrograph-landscape/"
+    },
+    {
+      "rank": 4,
+      "slug": "exolight-transit-lab",
+      "title": "ExoLight Transit Lab",
+      "version": "v1.4.0",
+      "sourceRef": "3230f3a",
+      "question": "How badly can correlated time-series noise invalidate iid transit-depth uncertainties, and can event-clustered intervals restore coverage?",
+      "result": "At AR(1) rho=0.8, nominal 95% iid coverage falls to 54.9% and 56.1%; event-clustered intervals reach 93.2% and 92.1%.",
+      "boundary": "Controlled noise-model experiment, not proof that every observed transit has AR(1) residuals or that one estimator solves all red-noise structure.",
+      "repositoryUrl": "https://github.com/Biswajit1999/exolight-transit-lab",
+      "releaseUrl": "https://github.com/Biswajit1999/exolight-transit-lab/releases/tag/v1.4.0",
+      "liveUrl": "https://biswajit1999.github.io/exolight-transit-lab/"
+    },
+    {
+      "rank": 5,
+      "slug": "exohspec-thar-atlas",
+      "title": "EXOhSPEC Th-Ar Atlas",
+      "version": "v0.3.0",
+      "sourceRef": "f38488e",
+      "question": "Can a multi-exposure ladder preserve strong calibration-feature centroids better than one long exposure without degrading faint features?",
+      "result": "Across 7,000 strong-feature injections, pixelwise HDR lowers centroid RMSE from 0.012954 to 0.002086 pixel, an 83.9% reduction; faint-feature RMSE is unchanged.",
+      "boundary": "Detector-domain simulation in pixels, not an atomic identification, wavelength solution, or measured radial-velocity precision.",
+      "repositoryUrl": "https://github.com/Biswajit1999/exohspec-thar-atlas",
+      "releaseUrl": "https://github.com/Biswajit1999/exohspec-thar-atlas/releases/tag/v0.3.0",
+      "liveUrl": "https://biswajit1999.github.io/exohspec-thar-atlas/"
+    },
+    {
+      "rank": 6,
+      "slug": "Biswajit_Jana.github.io",
+      "title": "Research Portfolio Evidence Registry",
+      "version": "v2026.09.19.3",
+      "sourceRef": "6140c49",
+      "question": "Can a large research portfolio expose questions, generated results, validation, releases, and limitations in one reviewer-auditable layer?",
+      "result": "Seven completed upgrades are represented by one validated schema and deterministic public registry; 43 ranked repositories remain explicitly unfinished.",
+      "boundary": "Evidence registry, not a citation index, peer-review decision, or ranking of scientific importance.",
+      "repositoryUrl": "https://github.com/Biswajit1999/Biswajit_Jana.github.io",
+      "releaseUrl": "https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3",
+      "liveUrl": "https://biswajit1999.github.io/Biswajit_Jana.github.io/research-evidence.html"
+    },
+    {
+      "rank": 7,
+      "slug": "lattice-radiation-twin",
+      "title": "LATTICE Radiation Twin",
+      "version": "v0.2.0",
+      "sourceRef": "a154e65",
+      "question": "Can eight historical HST epochs distinguish calendar time from four cumulative radiation proxy components well enough to interpret individual coefficients?",
+      "result": "The attribution gate fails: two residual degrees of freedom, condition number 175.31, maximum VIF 4,881.4, and three coefficient sign changes under leave-one-epoch-out refits.",
+      "boundary": "Post hoc predictor-separability diagnostic, not a radiation-damage estimate, causal claim, or authorization to open the sealed holdout.",
+      "repositoryUrl": "https://github.com/Biswajit1999/lattice-radiation-twin",
+      "releaseUrl": "https://github.com/Biswajit1999/lattice-radiation-twin/releases/tag/v0.2.0",
+      "liveUrl": "https://biswajit1999.github.io/lattice-radiation-twin/"
+    },
+    {
+      "rank": 8,
+      "slug": "finding-earth-2",
+      "title": "Finding Earth 2.0",
+      "version": "v2.1.2",
+      "sourceRef": "46d4fe4",
+      "question": "When the objective is reducing planet-radius uncertainty, can a larger scalar stellar-radius score justify an indirect observation without measured covariance?",
+      "result": "Thirteen targets support both actions. Stellar radius has the larger own-parameter score for 10, but the indirect route wins for none at |rho| <= 0.90; Kepler-296 f needs |rho|=0.995225.",
+      "boundary": "Correlation-grid sensitivity analysis, not a measured joint posterior or instrument-time recommendation; exposure cost is unmodelled.",
+      "repositoryUrl": "https://github.com/Biswajit1999/finding-earth-2",
+      "releaseUrl": "https://github.com/Biswajit1999/finding-earth-2/releases/tag/v2.1.2",
+      "liveUrl": "https://biswajit1999.github.io/finding-earth-2/information-gain/"
+    },
+    {
+      "rank": 9,
+      "slug": "AstroBis",
+      "title": "AstroBis Small-Body Evidence",
+      "version": "v1.3.1",
+      "sourceRef": "1aa1ef0",
+      "question": "How sensitive is a 0.05 AU and 140 m encounter screen to distance intervals, missing diameters, assumed albedo, and row-limited coverage?",
+      "result": "In a reviewed 7,500-row JPL CAD prefix, 586 encounters are nominally close, 396 remain close at the three-sigma maximum, and 190 nominal-close rows cross the boundary.",
+      "boundary": "Row-limited encounter-sensitivity audit, not MOID, PHA status, impact probability, Torino score, or hazard assessment.",
+      "repositoryUrl": "https://github.com/Biswajit1999/AstroBis",
+      "releaseUrl": "https://github.com/Biswajit1999/AstroBis/releases/tag/v1.3.1",
+      "liveUrl": "https://biswajit1999.github.io/AstroBis/neo/"
+    }
+  ]
+}
