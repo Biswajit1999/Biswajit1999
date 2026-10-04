@@ -1,8 +1,8 @@
 # Verified research evidence routed by this profile
 
-This index is generated from [profile-evidence.json](data/profile-evidence.json), pinned to central registry [v2026.09.19.3](https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3). It exposes 7 upstream evidence records; the programme snapshot is 7/50 complete with 43 remaining.
+This index is generated from [profile-evidence.json](data/profile-evidence.json), pinned to central registry [v2026.09.19.3](https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3). It exposes 7 upstream evidence records.
 
-> This profile routes to verified evidence records. Repositories outside this index are discovery links and are not represented as having completed the same audit.
+> This profile routes to verified evidence records. Repositories outside this index are discovery links and are not represented by this evidence index.
 
 | Project | Release | Question | Result boundary |
 | --- | --- | --- | --- |
@@ -48,7 +48,7 @@ This index is generated from [profile-evidence.json](data/profile-evidence.json)
 
 **Research question.** Can a large research portfolio expose questions, generated results, validation, releases, and limitations in one reviewer-auditable layer?
 
-**Generated result.** Seven completed upgrades are represented by one validated schema and deterministic public registry; 43 ranked repositories remain explicitly unfinished.
+**Generated result.** Seven repository evidence records are represented by one validated schema and deterministic public registry.
 
 **Boundary of inference.** Evidence registry, not a citation index, peer-review decision, or ranking of scientific importance.
 
@@ -89,4 +89,3 @@ This index is generated from [profile-evidence.json](data/profile-evidence.json)
 - Verified: 2026-09-19
 - Profile evidence release: v1.1.0
 - Central registry: [v2026.09.19.3](https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/download/v2026.09.19.3/research-evidence.json)
-- Scope: Auditable research communication, not scientific merit or peer review

@@ -8,7 +8,7 @@ test('committed profile evidence satisfies the schema contract', () => {
   const document = loadEvidence();
   assert.doesNotThrow(() => validateEvidence(document));
   assert.equal(document.projects.length, 7);
-  assert.equal(document.programme.upstreamEvidenceRecords, 7);
+  assert.equal(document.evidenceIndex.upstreamEvidenceRecords, 7);
 });
 
 test('generated Markdown, CSV and SVG are current', () => {
@@ -35,5 +35,5 @@ test('README distinguishes verified evidence from discovery links', () => {
   const readme = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
   assert.match(readme, /Verified Research Evidence/);
   assert.match(readme, /discovery-only/);
-  assert.match(readme, /7\/50/);
+  assert.match(readme, /7 verified upstream records/);
 });

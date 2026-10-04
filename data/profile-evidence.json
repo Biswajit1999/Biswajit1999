@@ -7,26 +7,9 @@
     "url": "https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3",
     "dataUrl": "https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/download/v2026.09.19.3/research-evidence.json"
   },
-  "programme": {
-    "completed": 7,
-    "rankedQueue": 50,
+  "evidenceIndex": {
     "upstreamEvidenceRecords": 7,
-    "boundary": "This profile routes to verified evidence records. Repositories outside this index are discovery links and are not represented as having completed the same audit."
-  },
-  "maturity": {
-    "scope": "Auditable research communication, not scientific merit or peer review",
-    "dimensions": [
-      {"name": "Claim provenance", "before": 35, "after": 96},
-      {"name": "Release traceability", "before": 10, "after": 98},
-      {"name": "Epistemic boundaries", "before": 30, "after": 96},
-      {"name": "Portfolio coverage", "before": 55, "after": 94},
-      {"name": "Reproducibility", "before": 25, "after": 96},
-      {"name": "Automated verification", "before": 10, "after": 94},
-      {"name": "Accessible communication", "before": 78, "after": 94},
-      {"name": "Maintenance clarity", "before": 45, "after": 92}
-    ],
-    "compositeBefore": 36,
-    "compositeAfter": 95
+    "boundary": "This profile routes to verified evidence records. Repositories outside this index are discovery links and are not represented by this evidence index."
   },
   "projects": [
     {
@@ -75,7 +58,7 @@
       "version": "v2026.09.19.3",
       "sourceRef": "6140c49",
       "question": "Can a large research portfolio expose questions, generated results, validation, releases, and limitations in one reviewer-auditable layer?",
-      "result": "Seven completed upgrades are represented by one validated schema and deterministic public registry; 43 ranked repositories remain explicitly unfinished.",
+      "result": "Seven repository evidence records are represented by one validated schema and deterministic public registry.",
       "boundary": "Evidence registry, not a citation index, peer-review decision, or ranking of scientific importance.",
       "repositoryUrl": "https://github.com/Biswajit1999/Biswajit_Jana.github.io",
       "releaseUrl": "https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3",

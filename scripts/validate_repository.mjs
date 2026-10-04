@@ -10,7 +10,7 @@ for (const [file, generated] of outputs(document)) {
 }
 
 const readme = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
-for (const required of ['Verified Research Evidence', 'EVIDENCE.md', 'profile-evidence-maturity.svg', document.sourceRegistry.version, `${document.programme.completed}/${document.programme.rankedQueue}`, 'discovery-only']) {
+for (const required of ['Verified Research Evidence', 'EVIDENCE.md', document.sourceRegistry.version, 'verified upstream records', 'discovery-only']) {
   if (!readme.includes(required)) failures.push(`README missing: ${required}`);
 }
 for (const project of document.projects) {
@@ -21,4 +21,4 @@ if (failures.length) {
   console.error(failures.join('\n'));
   process.exit(1);
 }
-console.log(`Profile validation passed: ${document.projects.length} evidence records, ${document.maturity.dimensions.length} maturity dimensions.`);
+console.log(`Profile validation passed: ${document.projects.length} evidence records.`);

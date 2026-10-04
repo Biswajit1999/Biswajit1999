@@ -48,7 +48,7 @@
 
 ## ✅ Verified Research Evidence
 
-This profile now separates **versioned, reviewer-auditable evidence** from general project discovery. The current pinned snapshot routes to **7 verified upstream records in the 7/50 programme checkpoint** ([central registry v2026.09.19.3](https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3)). Each record includes a research question, generated result, source revision, release, validation evidence and an explicit boundary of inference.
+This profile now separates **versioned, reviewer-auditable evidence** from general project discovery. The current pinned snapshot routes to **7 verified upstream records** ([central registry v2026.09.19.3](https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3)). Each record includes a research question, generated result, source revision, release, validation evidence and an explicit boundary of inference.
 
 | Repository | Verified release | Evidence focus |
 | --- | --- | --- |
@@ -62,11 +62,7 @@ This profile now separates **versioned, reviewer-auditable evidence** from gener
 
 [Read the generated evidence index](EVIDENCE.md) · [Inspect the machine-readable source](data/profile-evidence.json) · [Open the live central registry](https://biswajit1999.github.io/Biswajit_Jana.github.io/research-evidence.html)
 
-<p align="center">
-  <img src="assets/profile-evidence-maturity.svg" width="100%" alt="Before and after comparison of eight profile evidence maturity dimensions; composite increases from 36 to 95 out of 100">
-</p>
-
-> **Boundary.** The scores above measure auditable research communication—not scientific merit, peer review or a literal multiplier of research quality. Projects elsewhere on this page are **discovery-only** unless they appear in the verified table. Education, internship and publication summaries are profile narrative; project validation does not independently certify those biographical claims.
+> **Boundary.** The records above document auditable research communication; they are not peer review or measures of scientific merit. Projects elsewhere on this page are **discovery-only** unless they appear in the verified table. Education, internship and publication summaries are profile narrative; project validation does not independently certify those biographical claims.
 
 ---
 
@@ -316,7 +312,3 @@ Building an astrophysics and instrumentation portfolio that connects:
 <p align="center">
   ⭐ Explore the repositories below for the complete research, code, simulations and documentation.
 </p>
-
-## Research Quality Upgrade
-
-See [RESEARCH_QUALITY.md](RESEARCH_QUALITY.md) for the evidence contract, deterministic build, test suite, maturity rubric and research boundaries used by this repository.
