@@ -1,314 +1,187 @@
 <p align="center">
-  <img src="assets/binary-earth-radar.gif" width="100%" alt="Animated binary portrait and deep-space radar searching for an Earth analogue">
+  <img src="./assets/profile-hero-2026.svg" alt="Animated astrophysics and instrumentation banner for Biswajit Jana with a spectral field, orbital geometry and optical path telemetry." width="100%">
 </p>
 
-<h1 align="center">Hi, I'm Biswajit Jana 👋</h1>
+<h1 align="center">Biswajit Jana</h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=7C3AED&center=true&vCenter=true&width=760&lines=Astrophysics+Researcher+%26+Instrumentation+Engineer;Precision+spectroscopy+%26+instrumentation;Closed-loop+control+for+EXOhSPEC;Exoplanet+detection+%26+radial+velocity;Scientific+computing+for+astronomy" alt="Research focus animation">
-  </a>
-</p>
-
-<p align="center">
-  Precision Spectroscopy · Exoplanets · Active Optics · Feedback Control · Scientific Simulation
+  <strong>Astrophysics Researcher · Astronomical Instrumentation · Scientific Software</strong>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/biswajit-jana-27011a151/">
-    <img src="https://img.shields.io/badge/LinkedIn-Biswajit%20Jana-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:biswajitj998@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://biswajit1999.github.io/Biswajit_Jana.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio">
-  </a>
-  <a href="https://github.com/Biswajit1999?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-Explore%20My%20Work-111827?style=for-the-badge&logo=github&logoColor=white" alt="Repositories">
-  </a>
+  Visiting Researcher, University of Hertfordshire, UK<br>
+  MSc Astrophysics with Advanced Research (2024) · BTech Electronics &amp; Communication Engineering
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Biswajit1999&label=Profile%20Views&color=7C3AED&style=for-the-badge" alt="Profile views">
-  <img src="https://img.shields.io/github/followers/Biswajit1999?label=Followers&style=for-the-badge&logo=github" alt="GitHub followers">
-  <img src="https://img.shields.io/badge/Open%20to-Research%20Collaboration-16A34A?style=for-the-badge" alt="Open to research collaboration">
+  <a href="https://biswajit1999.github.io/Biswajit_Jana.github.io/"><img src="https://img.shields.io/badge/RESEARCH-PORTFOLIO-52D4CB?style=for-the-badge&labelColor=101D30&logo=githubpages&logoColor=white" alt="Research portfolio"></a>
+  <a href="https://www.linkedin.com/in/biswajit-jana-27011a151/"><img src="https://img.shields.io/badge/PROFESSIONAL-LINKEDIN-85B9F5?style=for-the-badge&labelColor=101D30&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:biswajitj998@gmail.com"><img src="https://img.shields.io/badge/CONTACT-EMAIL-BB9DFC?style=for-the-badge&labelColor=101D30&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Biswajit1999&label=PROFILE%20VIEWS&color=2E8B91&style=flat-square" alt="Profile views">
+  <img src="https://img.shields.io/github/followers/Biswajit1999?label=FOLLOWERS&style=flat-square&color=445A84" alt="GitHub followers">
+  <a href="https://github.com/Biswajit1999?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-25364D?style=flat-square" alt="Explore repositories"></a>
 </p>
 
 ---
 
-## 🔭 About Me
+## 01 / The researcher behind the projects
 
-- MSc **Astrophysics with Advanced Research**, University of Hertfordshire, United Kingdom
-- B.Tech **Electronics & Communication Engineering**, University of Engineering & Management (UEM), India
-- Research focus: **exoplanet detection, spectroscopy and precision astronomical instrumentation**
-- Building research software that connects **physics, simulation, data provenance, visualisation and instrument control**
+I work at the interface of **astronomy, electronics, experimental control and scientific computing**. I am particularly interested in the engineering problems that stand between a tiny astrophysical signal and a trustworthy measurement: optical-path stability, thermal drift, detector behaviour, calibration, precision radial velocity and uncertainty-aware inference.
 
----
+My MSc research concerned **closed-loop feedback control for EXOhSPEC**, a high-resolution exoplanet spectrograph. I continue to explore instrumentation methods alongside open research software that lets people interrogate the data, assumptions and limitations behind an astronomical result.
 
-## ✅ Verified Research Evidence
+**Education and research path**
 
-This profile now separates **versioned, reviewer-auditable evidence** from general project discovery. The current pinned snapshot routes to **7 verified upstream records** ([central registry v2026.09.19.3](https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3)). Each record includes a research question, generated result, source revision, release, validation evidence and an explicit boundary of inference.
+| | Background |
+| :-- | :-- |
+| **Now** | **Visiting Researcher**, University of Hertfordshire — EXOhSPEC instrumentation, environmental telemetry and precision-stability methods. |
+| **2022–2024** | **MSc Astrophysics with Advanced Research**, University of Hertfordshire, UK; Commendation. Thesis: *Closed-Loop Feedback Control System for EXOhSPEC Development*. Supervised by Prof Hugh R. A. Jones and Prof William E. Martin. |
+| **2017–2021** | **BTech Electronics & Communication Engineering**, University of Engineering & Management (UEM), India; First Class with Distinction. Undergraduate work in optical wireless communication and embedded hardware. |
+| **Further experience** | Satellite-laser-ranging detector studies (Lumi Space); brown-dwarf and survey-data analysis; radio interferometry (RRI programme); astronomical image processing, telescope work and embedded-system prototyping. |
 
-| Repository | Verified release | Evidence focus |
-| --- | --- | --- |
-| [EPRV Spectrograph Landscape](https://github.com/Biswajit1999/eprv-spectrograph-landscape) | [v0.15.0](https://github.com/Biswajit1999/eprv-spectrograph-landscape/releases/tag/v0.15.0) | Resolving power × intrinsic line-width experiment |
-| [ExoLight Transit Lab](https://github.com/Biswajit1999/exolight-transit-lab) | [v1.4.0](https://github.com/Biswajit1999/exolight-transit-lab/releases/tag/v1.4.0) | Correlated-noise interval-coverage experiment |
-| [EXOhSPEC Th–Ar Atlas](https://github.com/Biswajit1999/exohspec-thar-atlas) | [v0.3.0](https://github.com/Biswajit1999/exohspec-thar-atlas/releases/tag/v0.3.0) | Multi-exposure centroid recovery simulation |
-| [Research Evidence Registry](https://github.com/Biswajit1999/Biswajit_Jana.github.io) | [v2026.09.19.3](https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3) | Portfolio-wide claim and release traceability |
-| [LATTICE Radiation Twin](https://github.com/Biswajit1999/lattice-radiation-twin) | [v0.2.0](https://github.com/Biswajit1999/lattice-radiation-twin/releases/tag/v0.2.0) | Negative component-identifiability result |
-| [Finding Earth 2.0](https://github.com/Biswajit1999/finding-earth-2) | [v2.1.2](https://github.com/Biswajit1999/finding-earth-2/releases/tag/v2.1.2) | Objective-conditioned information transfer |
-| [AstroBis](https://github.com/Biswajit1999/AstroBis) | [v1.3.1](https://github.com/Biswajit1999/AstroBis/releases/tag/v1.3.1) | JPL encounter-distance and albedo sensitivity |
+> **Research direction:** precision RV instrumentation and calibration, exoplanet detection, detector characterisation, physical simulation and reproducible open science. Interested in PhD and research opportunities where instrumentation and astrophysics meet.
 
-[Read the generated evidence index](EVIDENCE.md) · [Inspect the machine-readable source](data/profile-evidence.json) · [Open the live central registry](https://biswajit1999.github.io/Biswajit_Jana.github.io/research-evidence.html)
-
-> **Boundary.** The records above document auditable research communication; they are not peer review or measures of scientific merit. Projects elsewhere on this page are **discovery-only** unless they appear in the verified table. Education, internship and publication summaries are profile narrative; project validation does not independently certify those biographical claims.
-
----
-
-## 🔬 Research Focus
+## 02 / From a photon to a defensible result
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Precision%20Spectroscopy-4C1D95?style=for-the-badge" alt="Precision spectroscopy">
-  <img src="https://img.shields.io/badge/Exoplanet%20Detection-0B3D91?style=for-the-badge" alt="Exoplanet detection">
-  <img src="https://img.shields.io/badge/Radial%20Velocity-B91C1C?style=for-the-badge" alt="Radial velocity">
-  <img src="https://img.shields.io/badge/Active%20Optics-0369A1?style=for-the-badge" alt="Active optics">
-  <img src="https://img.shields.io/badge/Feedback%20Control-047857?style=for-the-badge" alt="Feedback control">
-  <img src="https://img.shields.io/badge/Interferometry-1E3A8A?style=for-the-badge" alt="Interferometry">
-  <img src="https://img.shields.io/badge/Scientific%20Computing-7C3AED?style=for-the-badge" alt="Scientific computing">
-  <img src="https://img.shields.io/badge/Astronomical%20Instrumentation-111827?style=for-the-badge" alt="Astronomical instrumentation">
+  <img src="./assets/research-workflow-2026.svg" alt="Animated five-stage research workflow: sensing, calibrating, physical modelling, feedback control and reproducible validation." width="100%">
 </p>
 
-### Research Workflow
+Three themes connect much of my work:
 
-<p align="center">
-  <img src="https://img.shields.io/badge/01-Observe%20%2F%20Sense-1E3A8A?style=flat-square" alt="Observe or sense">
-  ➜
-  <img src="https://img.shields.io/badge/02-Calibrate%20%2F%20Validate-0F766E?style=flat-square" alt="Calibrate and validate">
-  ➜
-  <img src="https://img.shields.io/badge/03-Model%20%2F%20Simulate-047857?style=flat-square" alt="Model and simulate">
-  ➜
-  <img src="https://img.shields.io/badge/04-Test%20%2F%20Falsify-7C3AED?style=flat-square" alt="Test and falsify">
-  ➜
-  <img src="https://img.shields.io/badge/05-Reproduce%20%2F%20Share-B91C1C?style=flat-square" alt="Reproduce and share">
-</p>
+- **Instrument + environment** — interferometric metrology, active optics, thermal regulation, PID control and time-series telemetry.
+- **Physics + data** — spectroscopy, exoplanet transits and radial velocity, survey catalogues, detector effects and uncertainty propagation.
+- **Software + communication** — reproducible Python analyses, interactive browser laboratories, scientifically labelled visualisations and inspectable evidence.
 
----
+## 03 / Selected research & software
 
-## ✨ Selected / Recently Updated Main Projects
-
-A visual snapshot of selected research, simulation and interactive astronomy projects. The animated panels below are **profile-level visual summaries**; detailed methods, data, caveats and reproducibility material remain in the linked repositories.
+These are **working repositories**, not decorative concept links. Each image is a conceptual or simulation-style illustration; see the linked repository for the actual data, experiment, validation status and scientific limits.
 
 <table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/Biswajit1999/finding-earth-2"><img src="assets/finding-earth-2-sim.svg" width="100%" alt="Animated Finding Earth 2.0 catalogue and habitable-zone screening visual"></a>
-<br><strong>Finding Earth 2.0 in Distant Worlds</strong><br>
-Archive-driven exoplanet screening, habitable-zone analysis, uncertainty propagation and evidence-aware candidate assessment.<br><br>
-<a href="https://github.com/Biswajit1999/finding-earth-2">Repository</a> · <a href="https://biswajit1999.github.io/finding-earth-2/">Interactive observatory</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/Biswajit1999/pid-loop-lab"><img src="assets/pid-loop-sim.svg" width="100%" alt="Animated PID Loop Lab step response and controller simulation"></a>
-<br><strong>PID Loop Lab</strong><br>
-Interactive control-system simulation with live P/I/D tuning, deterministic plant models, response metrics and explainable controller behaviour.<br><br>
-<a href="https://github.com/Biswajit1999/pid-loop-lab">Repository</a> · <a href="https://biswajit1999.github.io/pid-loop-lab/">Live lab</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/Biswajit1999/NASADIYA-LIGHTCONE"><img src="assets/nasadiya-lightcone-sim.svg" width="100%" alt="Animated NASADIYA Lightcone cosmic evolution visualization"></a>
-<br><strong>NASADIYA-LIGHTCONE</strong><br>
-A visual and computational exploration of cosmic time, large-scale structure and observational perspective across an evolving lightcone.<br><br>
-<a href="https://github.com/Biswajit1999/NASADIYA-LIGHTCONE">Repository</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/Biswajit1999/Master-Thesis-2024"><img src="assets/exohspec-methods-sim.svg" width="100%" alt="Animated EXOhSPEC instrumentation and control methods diagram"></a>
-<br><strong>EXOhSPEC — Instrumentation &amp; Control Methods</strong><br>
-Public-safe overview of spectrograph instrumentation, sensing, feedback architecture and stabilisation methods. Main experimental performance results are intentionally not summarised on this profile.<br><br>
-<a href="https://github.com/Biswajit1999/Master-Thesis-2024">Methods repository</a>
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Biswajit1999/Master-Thesis-2024"><img src="./assets/exohspec-methods-sim.svg" width="100%" alt="Animated EXOhSPEC interferometry, drift sensing, active-optics and thermal-control methods panel"></a>
+      <strong>EXOhSPEC / Precision Instrument Control</strong><br>
+      MSc thesis and subsequent laboratory development connecting laser interferometry, thermal feedback, detector-plane drift and active optics. Experimental findings and their boundaries are documented in the research record.<br><br>
+      <a href="https://github.com/Biswajit1999/Master-Thesis-2024">Research record ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Biswajit1999/finding-earth-2"><img src="./assets/finding-earth-2-sim.svg" width="100%" alt="Animated Finding Earth 2.0 exoplanet-catalogue screening visual"></a>
+      <strong>Finding Earth 2.0</strong><br>
+      Provenance-aware exoplanet catalogue screening, habitable-zone candidates, observational selection effects and uncertainty-aware follow-up questions. Candidates are not claims of inhabited worlds.<br><br>
+      <a href="https://github.com/Biswajit1999/finding-earth-2">Repository ↗</a> · <a href="https://biswajit1999.github.io/finding-earth-2/">Live observatory ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Biswajit1999/eprv-spectrograph-landscape"><img src="./assets/eprv-landscape-2026.svg" width="100%" alt="Animated conceptual echelle spectral orders and calibration lines for the precision radial-velocity research guide"></a>
+      <strong>EPRV Spectrograph Landscape</strong><br>
+      Source-linked research into RV spectrograph architectures, calibration practices, instrument-performance caveats and bounded Doppler-information experiments. Not an instrument ranking.<br><br>
+      <a href="https://github.com/Biswajit1999/eprv-spectrograph-landscape">Research guide ↗</a> · <a href="https://biswajit1999.github.io/eprv-spectrograph-landscape/">Live explorer ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Biswajit1999/pid-loop-lab"><img src="./assets/pid-loop-sim.svg" width="100%" alt="Animated PID Loop Lab control response with P, I and D tuning"></a>
+      <strong>PID Loop Lab</strong><br>
+      Browser-based controller laboratory with plant models, step responses, actuator limits, disturbances and interpretable P/I/D terms. An educational simulation, not a hardware commissioning certificate.<br><br>
+      <a href="https://github.com/Biswajit1999/pid-loop-lab">Repository ↗</a> · <a href="https://biswajit1999.github.io/pid-loop-lab/">Launch lab ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Biswajit1999/NASADIYA-LIGHTCONE"><img src="./assets/nasadiya-lightcone-sim.svg" width="100%" alt="Animated survey-lightcone illustration for NASADIYA"></a>
+      <strong>NASADIYA LIGHTCONE</strong><br>
+      A provenance-conscious visual research interface for observed galaxy surveys, cosmic time and large-scale structure, with separate browser and Python research modes.<br><br>
+      <a href="https://github.com/Biswajit1999/NASADIYA-LIGHTCONE">Repository ↗</a> · <a href="https://biswajit1999.github.io/NASADIYA-LIGHTCONE/">Live explorer ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Biswajit1999/Multiverse"><img src="./assets/multiverse-cosmology-2026.svg" width="100%" alt="Animated conceptual bubble universes and scale-factor scenarios; theoretical illustration, not a measured observation"></a>
+      <strong>Multiverse Cosmology Lab</strong><br>
+      A question-led learning and simulation project on inflation, reheating, eternal inflation, bounce and cyclic scenarios, separating observational constraints from speculative cosmological interpretations.<br><br>
+      <a href="https://github.com/Biswajit1999/Multiverse">Research &amp; simulations ↗</a> · <a href="https://biswajit1999.github.io/Multiverse/">Interactive story ↗</a>
+    </td>
+  </tr>
 </table>
 
-<p align="center">
-  <sub>Visuals are animated SVG simulation/explainer panels designed for this profile. Numerical claims are kept tied to the corresponding project documentation.</sub>
-</p>
+### Other open research labs
 
----
+| Observatory / lab | What you can investigate |
+| :-- | :-- |
+| [ExoLight Transit Lab](https://github.com/Biswajit1999/exolight-transit-lab) · [open](https://biswajit1999.github.io/exolight-transit-lab/) | Transit photometry, forward models, correlated noise and residual diagnostics. |
+| [EXOhSPEC Th–Ar Atlas](https://github.com/Biswajit1999/exohspec-thar-atlas) · [open](https://biswajit1999.github.io/exohspec-thar-atlas/) | Controlled detector-domain calibration and centroid-recovery studies. |
+| [LATTICE Radiation Twin](https://github.com/Biswajit1999/lattice-radiation-twin) · [open](https://biswajit1999.github.io/lattice-radiation-twin/) | Detector trailing and radiation-proxy inference; important falsification and identifiability limits. |
+| [Betelgeuse Observatory](https://github.com/Biswajit1999/betelgeuse-observatory) · [open](https://biswajit1999.github.io/betelgeuse-observatory/) | Observable stellar variability, physical models and light-travel-time reasoning. |
+| [EPRV Instrument Digital Twin](https://github.com/Biswajit1999/eprv-instrument-digital-twin) | Explicitly idealised thermal stability modelling for RV instrument systems. |
+| [Dark Matter Lensing Auditor](https://github.com/Biswajit1999/dark-matter-lensing-auditor) | Research workflow focused on lensing evidence and scientific caveats. |
 
-## 🛰️ Recently Active Research Software
+## 04 / Reproducible evidence, not just screenshots
 
-<table>
-<tr>
-<td width="50%">
-<a href="https://github.com/Biswajit1999/exolight-transit-lab">
-<img src="https://github-stats-extended.vercel.app/api/pin/?username=Biswajit1999&repo=exolight-transit-lab&theme=tokyonight&hide_border=true" width="100%" alt="ExoLight Transit Lab repository">
-</a>
-</td>
-<td width="50%">
-<a href="https://github.com/Biswajit1999/eprv-spectrograph-landscape">
-<img src="https://github-stats-extended.vercel.app/api/pin/?username=Biswajit1999&repo=eprv-spectrograph-landscape&theme=tokyonight&hide_border=true" width="100%" alt="EPRV Spectrograph Landscape repository">
-</a>
-</td>
-</tr>
-</table>
+Selected projects have an **auditable, versioned evidence trail**: a stated question, source revision, reproducible experiment, validation record and explicit boundary of inference.
 
-<p align="center">
-  <a href="https://biswajit1999.github.io/exolight-transit-lab/">
-    <img src="https://img.shields.io/badge/ExoLight-Open%20Interactive%20Lab-0F766E?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open ExoLight Transit Lab">
-  </a>
-  <a href="https://github.com/Biswajit1999/eprv-spectrograph-landscape">
-    <img src="https://img.shields.io/badge/EPRV-Reading%20%26%20Instrument%20Guide-B91C1C?style=for-the-badge&logo=github&logoColor=white" alt="Open EPRV Spectrograph Landscape">
-  </a>
-  <a href="https://github.com/Biswajit1999/AETHER">
-    <img src="https://img.shields.io/badge/AETHER-Visual%20Astronomy-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Open AETHER">
-  </a>
-</p>
+The **September 2026 registry snapshot** indexes **7 upstream research records**. This is a version-pinned subset of the portfolio, **not** a claim that all repositories have been independently validated or peer reviewed.
 
----
+| Research record | Evidence snapshot |
+| :-- | :-- |
+| [EPRV Spectrograph Landscape](https://github.com/Biswajit1999/eprv-spectrograph-landscape) | [v0.15.0](https://github.com/Biswajit1999/eprv-spectrograph-landscape/releases/tag/v0.15.0) — controlled resolving-power and line-width experiment |
+| [ExoLight Transit Lab](https://github.com/Biswajit1999/exolight-transit-lab) | [v1.4.0](https://github.com/Biswajit1999/exolight-transit-lab/releases/tag/v1.4.0) — correlated-noise interval-coverage experiment |
+| [EXOhSPEC Th–Ar Atlas](https://github.com/Biswajit1999/exohspec-thar-atlas) | [v0.3.0](https://github.com/Biswajit1999/exohspec-thar-atlas/releases/tag/v0.3.0) — simulated multi-exposure centroid recovery |
+| [Research Evidence Registry](https://github.com/Biswajit1999/Biswajit_Jana.github.io) | [v2026.09.19.3](https://github.com/Biswajit1999/Biswajit_Jana.github.io/releases/tag/v2026.09.19.3) — cross-repository traceability |
+| [LATTICE Radiation Twin](https://github.com/Biswajit1999/lattice-radiation-twin) | [v0.2.0](https://github.com/Biswajit1999/lattice-radiation-twin/releases/tag/v0.2.0) — negative identifiability finding |
+| [Finding Earth 2.0](https://github.com/Biswajit1999/finding-earth-2) | [v2.1.2](https://github.com/Biswajit1999/finding-earth-2/releases/tag/v2.1.2) — follow-up value/covariance sensitivity |
+| [AstroBis](https://github.com/Biswajit1999/AstroBis) | [v1.3.1](https://github.com/Biswajit1999/AstroBis/releases/tag/v1.3.1) — small-body screening sensitivity |
 
-## 🧪 Current Instrumentation Work
+**[Read the evidence index →](EVIDENCE.md)** · **[Explore the live registry →](https://biswajit1999.github.io/Biswajit_Jana.github.io/research-evidence.html)** · [Machine-readable snapshot](data/profile-evidence.json)
 
-### EXOhSPEC — closed-loop spectrograph methods
+## 05 / Engineering & scientific toolkit
 
-- Developing closed-loop architecture combining **thermal control and active optics**
-- Using **interferometric sensing, PID/feedback logic and image-registration methods** for drift monitoring
-- Studying how **environmental variables couple into precision instrumentation**
-- Building real-time monitoring workflows with **Grafana and InfluxDB**
-- Developing web-based instrument control and analysis tools with **HTML, CSS and JavaScript**
-- This profile intentionally keeps EXOhSPEC at the **methods and system-architecture level** rather than reproducing the main experimental results
-
----
-
-## 🚀 More Research & Simulation Projects
+| Area | Tools & practice |
+| :-- | :-- |
+| **Scientific computing** | Python, NumPy, SciPy, pandas, Astropy, Jupyter, MATLAB, Matplotlib, C/C++, numerical modelling and uncertainty analysis |
+| **Instrumentation** | Laser interferometry, IDS3010, adaptive optics, optical sensing, CCD/CMOS imaging, spectrograph stabilisation, PID feedback, serial instrument interfaces |
+| **Telemetry & embedded** | InfluxDB, Grafana, PT104, Meerstetter TEC, Arduino, Raspberry Pi, PSoC, NodeMCU, automated acquisition |
+| **Interactive research software** | JavaScript, TypeScript, HTML/CSS, browser visualisation, data provenance, Git/GitHub, documentation and reproducible workflows |
 
 <p align="center">
-  <a href="https://github.com/Biswajit1999/doppler-shift-visualiser">
-    <img src="https://img.shields.io/badge/Doppler%20Shift-Visualiser-B91C1C?style=for-the-badge&logo=github&logoColor=white" alt="Doppler Shift Visualiser">
-  </a>
-  <a href="https://github.com/Biswajit1999/blackbody-radiation-visualiser">
-    <img src="https://img.shields.io/badge/Blackbody%20Radiation-Visualiser-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Blackbody Radiation Visualiser">
-  </a>
-  <a href="https://github.com/Biswajit1999/interactive-hr-diagram-lab">
-    <img src="https://img.shields.io/badge/Interactive%20HR%20Diagram-Stellar%20Evolution-EC4899?style=for-the-badge&logo=github&logoColor=white" alt="Interactive HR Diagram">
-  </a>
-  <a href="https://github.com/Biswajit1999/Jana-s-RV-Doppler-Observatory">
-    <img src="https://img.shields.io/badge/RV%20Doppler-Observatory-0369A1?style=for-the-badge&logo=github&logoColor=white" alt="RV Doppler Observatory">
-  </a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/MATLAB-E16737?style=flat-square&logo=mathworks&logoColor=white" alt="MATLAB">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Astropy-5E4A7D?style=flat-square&logo=python&logoColor=white" alt="Astropy">
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana">
+  <img src="https://img.shields.io/badge/InfluxDB-22ADF6?style=flat-square&logo=influxdb&logoColor=white" alt="InfluxDB">
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
 </p>
 
----
+## 06 / Publications & research communication
 
-## 🧠 Research Experience
+My published work began in **electronics and optical communications**; current astrophysics repositories are described by their actual project and evidence status rather than presented as refereed journal articles.
 
-- Exoplanet detection using transit light curves and radial velocity
-- Brown-dwarf atmospheric modelling for objects near **1100 K**
-- Halo T-dwarf candidate identification using **VISTA, DES and WISE**
-- Pulsar detection and analysis using large FITS datasets
+1. **Implementation of dimming controlled visible light communication using Raspberry Pi** — *Optical and Quantum Electronics* **53**, 725 (2021). [DOI: 10.1007/s11082-021-03362-4](https://doi.org/10.1007/s11082-021-03362-4)
+2. **Priority encoder using reversible logic gates in QCA** — IEEE IEMCON (2017). [DOI: 10.1109/IEMCON.2017.8117242](https://doi.org/10.1109/IEMCON.2017.8117242)
+3. **GSM Controlled Location Specific Garbage Collecting Smart Bin** — IEEE IEMECON (2019). [DOI: 10.1109/IEMECONX.2019.8877007](https://doi.org/10.1109/IEMECONX.2019.8877007)
 
----
+Beyond publications: EXOhSPEC research presentations; detector and satellite-laser-ranging poster work; exoplanet and substellar analysis; visual explainers built to make difficult physical concepts approachable.
 
-## 🛰️ Internships & Research Programmes
+**[Academic CV & research background →](https://biswajit1999.github.io/Biswajit_Jana.github.io/cv.html)**
 
-- **LUMI SPACE** — Satellite Laser Ranging analysis
-- **University of Hertfordshire** — Brown-dwarf discovery project
-- **Raman Research Institute** — Radio interferometry
-- **IIT Kharagpur** — Embedded systems and drone calibration
-
----
-
-## 🧾 Publications
-
-- Springer — Visible Light Communication using Raspberry Pi
-- IEEE — Priority encoder in Quantum-dot Cellular Automata
-- IEMECON — Smart IoT waste-management system
-
----
-
-## 🛠️ Technical Skills
-
-### Programming & Scientific Computing
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/MATLAB-E16737?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy">
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib">
-</p>
-
-### Instrumentation, Monitoring & Platforms
-
-<p>
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino">
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi">
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana">
-  <img src="https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white" alt="InfluxDB">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-</p>
-
----
-
-## 📊 GitHub Contribution Overview
+## 07 / GitHub signal
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Biswajit1999&theme=tokyonight" width="100%" alt="Biswajit's live GitHub contribution summary">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Biswajit1999&theme=tokyonight" width="100%" alt="GitHub contribution activity summary">
 </p>
 
 <p align="center">
-  <img height="175" src="https://github-stats-extended.vercel.app/api?username=Biswajit1999&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="Biswajit's GitHub statistics">
-  <img height="175" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Biswajit1999&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Biswajit's most used languages">
+  <a href="https://github.com/Biswajit1999?tab=repositories"><strong>Explore all repositories →</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://biswajit1999.github.io/Biswajit_Jana.github.io/"><strong>Visit my portfolio →</strong></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:biswajitj998@gmail.com"><strong>Discuss research →</strong></a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Biswajit1999&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="100%" alt="Biswajit's GitHub contribution activity graph">
-</p>
-
-### 🐍 Contribution Orbit
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Biswajit1999/Biswajit1999/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Biswajit1999/Biswajit1999/output/github-contribution-grid-snake.svg">
-  <img width="100%" alt="Animated contribution graph" src="https://raw.githubusercontent.com/Biswajit1999/Biswajit1999/output/github-contribution-grid-snake.svg">
-</picture>
-
----
-
-## 🎯 Current Goal
-
-Building an astrophysics and instrumentation portfolio that connects:
-
-- Physics and observational science
-- Reproducible scientific computing
-- Interactive visualisation and simulation
-- Real experimental control systems
-- Open, inspectable research software
-
----
-
-## 🤝 Let's Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/biswajit-jana-27011a151/">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:biswajitj998@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Send%20a%20Message-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://biswajit1999.github.io/Biswajit_Jana.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-Explore%20My%20Work-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio">
-  </a>
-</p>
-
-<p align="center">
-  ⭐ Explore the repositories below for the complete research, code, simulations and documentation.
+  <sub>Created and maintained by <strong>Biswajit Jana</strong>. Profile diagrams are explanatory artwork, not substitute measurements or astronomical photographs. © 2026.</sub>
 </p>
