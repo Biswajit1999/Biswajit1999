@@ -28,24 +28,24 @@ I'm a **Visiting Researcher at the University of Hertfordshire**, with an **MSc 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Biswajit1999/Master-Thesis-2024"><img src="./assets/profile-cinema/exohspec-research.jpg" alt="Conceptual EXOhSPEC precision-stabilisation instrument artwork" width="100%"></a>
+<a href="https://github.com/Biswajit1999/Master-Thesis-2024"><img src="./assets/profile-cinema/v4-exohspec.jpg" alt="Conceptual EXOhSPEC precision-stabilisation instrument artwork" width="100%"></a>
 <strong>EXOhSPEC</strong> · <em>Can thermal control and active optics keep a high-resolution spectrograph stable over long runs?</em><br>
 <a href="https://github.com/Biswajit1999/Master-Thesis-2024"><strong>Explore experimental record →</strong></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Biswajit1999/finding-earth-2"><img src="./assets/profile-cinema/finding-earth-research.jpg" alt="Finding Earth 2.0 visual of a world in the exoplanet-search project" width="100%"></a>
+<a href="https://github.com/Biswajit1999/finding-earth-2"><img src="./assets/profile-cinema/v4-finding-earth.jpg" alt="Finding Earth 2.0 visual of a world in the exoplanet-search project" width="100%"></a>
 <strong>Finding Earth 2.0</strong> · <em>Which of the known exoplanets survive a reproducible, uncertainty-aware search for small temperate worlds?</em><br>
 <a href="https://github.com/Biswajit1999/finding-earth-2"><strong>Follow the evidence →</strong></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Biswajit1999/eprv-spectrograph-landscape"><img src="./assets/profile-cinema/precision-rv-research.jpg" alt="Spectrograph and calibration research project visual" width="100%"></a>
+<a href="https://github.com/Biswajit1999/eprv-spectrograph-landscape"><img src="./assets/profile-cinema/v4-precision-rv.jpg" alt="Spectrograph and calibration research project visual" width="100%"></a>
 <strong>Precision RV Landscape</strong> · <em>What really determines an instrument's Doppler sensitivity, and which published figures are comparable?</em><br>
 <a href="https://github.com/Biswajit1999/eprv-spectrograph-landscape"><strong>Explore the instrument guide →</strong></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Biswajit1999/NASADIYA-LIGHTCONE"><img src="./assets/profile-cinema/nasadiya-research.jpg" alt="NASADIYA LIGHTCONE observed-data cosmic visualisation" width="100%"></a>
+<a href="https://github.com/Biswajit1999/NASADIYA-LIGHTCONE"><img src="./assets/profile-cinema/v4-nasadiya.jpg" alt="NASADIYA LIGHTCONE observed-data cosmic visualisation" width="100%"></a>
 <strong>NASADIYA LIGHTCONE</strong> · <em>What does the large-scale Universe look like when every plotted galaxy comes from a real survey?</em><br>
 <a href="https://github.com/Biswajit1999/NASADIYA-LIGHTCONE"><strong>Explore the cosmic lightcone →</strong></a>
 </td>
