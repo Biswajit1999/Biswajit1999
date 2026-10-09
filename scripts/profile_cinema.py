@@ -130,6 +130,24 @@ halo=Image.new('RGBA',(W,H));gd=ImageDraw.Draw(halo,'RGBA')
 for r in range(275,218,-6):gd.ellipse((1053-r,215-r,1053+r,215+r),outline=(31,141,203,max(0,9-(275-r)//13)),width=7)
 halo=halo.filter(ImageFilter.GaussianBlur(17));BASE.alpha_composite(halo)
 BASE.alpha_composite(planet_layer)
+# Foreground Earth-based observatory. Its telescope points towards the target field.
+# Render over the globe, so the instrument genuinely appears on Earth's surface
+# instead of disappearing behind the atmospheric sphere.
+observatory=Image.new('RGBA',(W,H));od=ImageDraw.Draw(observatory,'RGBA')
+od.polygon([(865,405),(893,376),(936,355),(974,355),(1036,394),(1106,419),(1106,H),(865,H)],fill=(4,16,27,242))
+od.rounded_rectangle((906,355,1013,404),radius=3,fill=(6,18,29,252),outline=(76,139,156,230),width=2)
+od.pieslice((907,303,1012,404),180,360,fill=(15,35,50,252),outline=(127,169,183,220),width=3)
+od.arc((914,309,1006,397),192,352,fill=(77,163,174,190),width=2)
+# A visible instrument tube and secondary mirror, with its aperture aimed skyward.
+od.polygon([(964,342),(989,318),(1010,331),(980,352)],fill=(31,60,77,255))
+od.line((987,322,1017,290),fill=(128,177,183,250),width=9)
+od.line((994,317,1026,285),fill=(39,70,87,250),width=8)
+od.ellipse((1018,280,1036,292),fill=(20,48,69,255),outline=(119,224,236,250),width=2)
+od.line((946,394,946,430),fill=(34,81,98,235),width=4)
+for wx in (923,945,967,989):
+ od.rectangle((wx,374,wx+5,379),fill=(250,192,114,235))
+od.line((871,410,1100,410),fill=(148,170,156,150),width=2)
+BASE.alpha_composite(observatory)
 # deep panel contrast on left
 shadow=Image.new('RGBA',(W,H));ar=np.zeros((H,W,4),dtype=np.uint8)
 ar[:,:,0]=2;ar[:,:,1]=8;ar[:,:,2]=20
@@ -141,16 +159,17 @@ shadow=Image.fromarray(ar,'RGBA');BASE.alpha_composite(shadow)
 static=Image.new('RGBA',(W,H));d=ImageDraw.Draw(static,'RGBA')
 d.rounded_rectangle((32,30,248,61),radius=7,fill=(14,52,67,160),outline=(39,173,200,120),width=1)
 d.ellipse((46,40,56,50),fill=(71,247,214,255))
-line_text(d,(68,38),'SIGNAL / ONLINE',14,(119,236,222,255),True,1.5)
+line_text(d,(68,38),'OBSERVING FROM EARTH',13,(119,236,222,255),True,1.15)
 d.line((32,76,688,76),fill=(33,101,133,170),width=2)
 d.line((33,76,160,76),fill=(77,240,221,255),width=3)
 line_text(d,(29,91),'BISWAJIT',86,(240,251,255,255),True,2)
 line_text(d,(33,186),'JANA',92,(71,227,220,255),True,6)
-line_text(d,(39,305),'ASTROPHYSICS  /  INSTRUMENTATION',19,(209,237,248,255),True,1.0)
-line_text(d,(39,335),'Precision RV · Exoplanets · Feedback Control',16,(159,203,221,255))
-for x0,x1,label in [(39,220,'RESEARCH SYSTEMS'),(233,410,'OPTICAL METROLOGY'),(423,613,'SCIENTIFIC SOFTWARE')]:
- d.rounded_rectangle((x0,382,x1,411),radius=8,fill=(17,42,64,187),outline=(46,145,175,180),width=1)
- line_text(d,(x0+13,391),label,11,(164,231,246,255),True)
+line_text(d,(39,304),'ASTROPHYSICS  /  EXOPLANETS  /  COSMOLOGY',16,(209,237,248,255),True,.6)
+line_text(d,(39,331),'A telescope on Earth. A Universe left to explore.',15,(174,212,226,255))
+# Single optical-survey caption: the actual headline cycles like a slide deck in dynamic_frame.
+d.rounded_rectangle((35,369,724,415),radius=8,fill=(8,26,43,215),outline=(54,162,189,165),width=1)
+d.line((47,379,47,404),fill=(68,242,221,235),width=3)
+line_text(d,(59,380),'TELESCOPE FIELD / SEARCH JOURNAL',10,(110,187,209,250),True,1.3)
 # visual scan markers & orbit glyphs at right
 for r in [157,203,244]: d.ellipse((1053-r,215-r,1053+r,215+r),outline=(62,173,211,65),width=2)
 d.arc((861,-2,1254,432),230,336,fill=(134,225,251,160),width=3)
@@ -158,53 +177,115 @@ for i in range(7):
  yy=72+i*28
  d.line((1213,yy,1276,yy),fill=(24,142,176,100),width=1)
  d.line((1222,yy,1244+(i%3)*12,yy),fill=(81,226,237,210),width=2)
-line_text(d,(1186,25),'EPRV / 2026',13,(125,205,220,255),True)
+line_text(d,(1129,25),'EARTH / SKY SURVEY',12,(125,205,220,255),True)
 d.line((0,H-17,W,H-17),fill=(41,103,133,90),width=1)
 BASE.alpha_composite(static)
 
+# Each scene is an illustration of a telescope-based search, never a claim of a detected signal.
+SLIDES=(
+ ('SEARCHING FOR DISTANT WORLDS','LOOKING BEYOND OUR SOLAR SYSTEM'),
+ ('FOLLOWING THE LIGHT OF STARS','SPECTRA  /  TRANSITS  /  PHOTONS'),
+ ('MAPPING THE COSMIC HORIZON','FROM OUR SKY TO THE DEEP UNIVERSE'),
+ ('WHAT ELSE IS OUT THERE?','THE NEXT QUESTION IS WAITING'),
+)
+
 def dynamic_frame(i,n):
- im=BASE.copy();layer=Image.new('RGBA',(W,H));d=ImageDraw.Draw(layer,'RGBA')
- theta=2*math.pi*i/n
+ im=BASE.copy()
+ layer=Image.new('RGBA',(W,H))
+ d=ImageDraw.Draw(layer,'RGBA')
+ phase=i/n
+ theta=2*math.pi*phase
  cx,cy=1053,215
- # transparent wedge, radar scan line
- r=241
+
+ # Radar sweep follows the illustrated Earth and periodically crosses the distant field.
+ r=248
  wedge=[(cx,cy)]
- for k in range(33):
-  a=theta-math.pi/5+(math.pi/5)*k/32
-  wedge.append((cx+r*math.cos(a),cy+r*math.sin(a)))
- d.polygon(wedge,fill=(20,224,183,10))
- ex=cx+r*math.cos(theta);ey=cy+r*math.sin(theta)
- d.line((cx,cy,ex,ey),fill=(78,248,221,130),width=2)
- # ranging ticks at different radii
- for rr in (160,202,240):
-  tx=cx+rr*math.cos(theta);ty=cy+rr*math.sin(theta)
-  d.ellipse((tx-3,ty-3,tx+3,ty+3),fill=(117,248,228,200))
- # Lissajous spectrum miniature lower right
- ox,oy=813,392
- d.rounded_rectangle((788,366,1300,413),radius=9,fill=(4,20,34,160),outline=(43,129,151,155))
- line_text(d,(800,374),'CLOSED-LOOP TELEMETRY  /  LIVE SIGNAL',10,(148,225,231,230),True)
- p=[]
- for k in range(465):
-  z=k/465
-  val=(math.sin(z*12*math.pi+theta*2)*.44+math.sin(z*34*math.pi-theta*.7)*.11+math.sin(z*4*math.pi+theta)*.23)
-  p.append((800+k,397-11*val))
- d.line(p,fill=(100,238,212,210),width=2,joint='curve')
- # moving optical data probe
- px=800+((i*9)%465);d.line((px,386,px,409),fill=(120,229,248,100),width=1)
- # tiny operation bit
- d.ellipse((237,43,247,53),fill=(69,228,212,60+i%4*30))
+ for k in range(36):
+  angle=theta-.40+.40*k/35
+  wedge.append((cx+r*math.cos(angle),cy+r*math.sin(angle)))
+ d.polygon(wedge,fill=(22,218,205,13))
+ endpoint=(cx+r*math.cos(theta),cy+r*math.sin(theta))
+ d.line((cx,cy,*endpoint),fill=(83,230,222,175),width=3)
+ for rr in (160,200,238):
+  x=cx+rr*math.cos(theta);y=cy+rr*math.sin(theta)
+  d.ellipse((x-3,y-3,x+3,y+3),fill=(130,255,226,205))
+
+ # Telescope geometry: photons travel from a sky target towards the dome on Earth.
+ base=(1026,288);target=(1216,104)
+ beam=Image.new('RGBA',(W,H));beam_draw=ImageDraw.Draw(beam,'RGBA')
+ beam_draw.polygon([base,(target[0]-19,target[1]-13),(target[0]+10,target[1]+22)],fill=(34,207,243,12))
+ beam_draw.line((base[0],base[1],target[0],target[1]),fill=(85,226,249,76),width=2)
+ im.alpha_composite(beam.filter(ImageFilter.GaussianBlur(7)))
+ d.line((base[0],base[1],target[0],target[1]),fill=(105,220,247,121),width=2)
+ for k in range(5):
+  t=((phase*1.7+k/5)%1.)
+  px=target[0]+(base[0]-target[0])*t
+  py=target[1]+(base[1]-target[1])*t
+  rr=2+1.7*(1-t)
+  d.ellipse((px-rr,py-rr,px+rr,py+rr),fill=(151,247,248,int(110+130*(1-t))))
+ # A bright star and concentric synthetic targeting rings; scan is not a real detection.
+ tx,ty=target
+ pulse=8+3.5*math.sin(theta*2)**2
+ d.ellipse((tx-3,ty-3,tx+3,ty+3),fill=(246,251,241,255))
+ d.line((tx-13,ty,tx+13,ty),fill=(121,240,251,115),width=1)
+ d.line((tx,ty-13,tx,ty+13),fill=(121,240,251,115),width=1)
+ for k in range(2):
+  rad=24+14*k+pulse
+  d.arc((tx-rad,ty-rad,tx+rad,ty+rad),20,310,fill=(75,221,243,100-k*26),width=2)
+ d.rectangle((1150,54,1290,79),fill=(4,18,31,185))
+ line_text(d,(1159,61),'FIELD / SIMULATED',11,(139,223,232,255),True)
+
+ # An illustrative light-curve experiment, showing a moving cursor and a tiny
+ # transit-style dip against a synthetic baseline, never attributed to any star.
+ px0,py0,ww=803,393,457
+ d.rounded_rectangle((786,358,1300,415),radius=8,fill=(4,20,34,201),outline=(43,129,151,170),width=1)
+ line_text(d,(800,365),'SYNTHETIC STARLIGHT  /  FLUX VS TIME',10,(153,234,231,235),True)
+ d.line((px0,399,px0+ww,399),fill=(69,128,155,100),width=1)
+ curve=[]
+ for j in range(ww):
+  z=j/ww
+  # Toy transit light curve + weak deterministic photometric noise.
+  dip=7.8*math.exp(-((z-.52)/.092)**8)
+  noise=1.0*math.sin(j*.32)+.64*math.sin(j*.93+.3)
+  curve.append((px0+j,393+dip+noise))
+ d.line(curve,fill=(98,238,217,230),width=2)
+ cursor=px0+int(phase*ww)
+ d.line((cursor,378,cursor,411),fill=(155,223,244,165),width=1)
+ d.ellipse((cursor-2,curve[cursor-px0][1]-2,cursor+2,curve[cursor-px0][1]+2),fill=(245,242,203,255))
+
+ # Slide-deck typewriter. GitHub replays these four messages without JavaScript.
+ slide_idx=int(phase*len(SLIDES))%len(SLIDES)
+ title,subtitle=SLIDES[slide_idx]
+ local=((phase*len(SLIDES))%1.)
+ revealed=min(len(title),int(2+local*len(title)*2.2))
+ text=title[:revealed]
+ line_text(d,(62,394),text,15,(226,251,255,255),True,.35)
+ if revealed<len(title):
+  at_x=64+d.textlength(text,font=font(15,True))
+  d.line((at_x,394,at_x,410),fill=(91,252,228,255),width=2)
+ # Separate semantic slide labels hidden in the margins of the view.
+ d.text((740,403),f'{slide_idx+1:02d}/04',font=font(10,True),fill=(142,190,214,235))
+ d.text((792,430),'ILLUSTRATIVE OPTICAL SEARCH · NOT A LIVE OBSERVATION',font=font(9),fill=(117,170,193,210))
+
+ # Scan arc and sweeping satellite orbit create continuity between frames.
+ for k in range(2):
+  alpha=theta*(1.0+(.18*k))+k*math.pi
+  x=cx+(205+24*k)*math.cos(alpha)
+  y=cy+(126+22*k)*math.sin(alpha)
+  d.ellipse((x-4,y-4,x+4,y+4),fill=((115,234,230,210) if k==0 else (246,196,139,200)))
+
  im.alpha_composite(layer)
  return im.convert('RGB')
 
 def render_hero():
- n=26
+ n=48
  frames=[]
  for i in range(n):
   frames.append(dynamic_frame(i,n))
   if i==8:frames[-1].save(OUT/'hero-preview.jpg',quality=92,optimize=True)
  out=OUT/'research-radar-cinematic.gif'
  # Individual palettes with frame-delta optimizations.
- frames[0].save(out,save_all=True,append_images=frames[1:],duration=120,loop=0,optimize=False,disposal=2,colors=128)
+ frames[0].save(out,save_all=True,append_images=frames[1:],duration=120,loop=0,optimize=True,disposal=2,colors=96)
  print('HERO',out,out.stat().st_size)
 
 # Visual cards: repository-derived evidence where available. Assets saved locally and never presented as raw measurements.
@@ -283,5 +364,7 @@ def render_card(p):
  print('CARD',path,path.stat().st_size)
 
 if __name__=='__main__':
+ import sys
  render_hero()
- for p in PROJECTS:render_card(p)
+ if '--hero-only' not in sys.argv:
+  for p in PROJECTS:render_card(p)
