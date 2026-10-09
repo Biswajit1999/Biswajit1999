@@ -278,14 +278,14 @@ def dynamic_frame(i,n):
  return im.convert('RGB')
 
 def render_hero():
- n=48
+ n=40
  frames=[]
  for i in range(n):
   frames.append(dynamic_frame(i,n))
   if i==8:frames[-1].save(OUT/'hero-preview.jpg',quality=92,optimize=True)
  out=OUT/'research-radar-cinematic.gif'
  # Individual palettes with frame-delta optimizations.
- frames[0].save(out,save_all=True,append_images=frames[1:],duration=120,loop=0,optimize=True,disposal=2,colors=96)
+ frames[0].save(out,save_all=True,append_images=frames[1:],duration=135,loop=0,optimize=True,disposal=2,colors=72)
  print('HERO',out,out.stat().st_size)
 
 # Visual cards: repository-derived evidence where available. Assets saved locally and never presented as raw measurements.
