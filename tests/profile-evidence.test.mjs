@@ -34,7 +34,7 @@ test('claim boundaries reject over-interpretation', () => {
 test('profile cover links the cinematic radar and keeps research provenance in the dedicated index', () => {
   const readme = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
   const index = fs.readFileSync(path.join(ROOT, 'EVIDENCE.md'), 'utf8');
-  assert.match(readme, /assets\\/profile-cinema\\/research-radar-cinematic\\.gif/);
+  assert.ok(readme.includes('assets/profile-cinema/research-radar-cinematic.gif'));
   for (const project of loadEvidence().projects) {
     assert.ok(index.includes(project.releaseUrl), project.slug);
   }
