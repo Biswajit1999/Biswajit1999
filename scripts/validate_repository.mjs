@@ -9,12 +9,13 @@ for (const [file, generated] of outputs(document)) {
   else if (fs.readFileSync(file, 'utf8') !== generated) failures.push(`${path.relative(ROOT, file)} stale`);
 }
 
+// The README is a visual cover, not the registry index. Validate each separately.
 const readme = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
-for (const required of ['Verified Research Evidence', 'EVIDENCE.md', document.sourceRegistry.version, 'verified upstream records', 'discovery-only']) {
-  if (!readme.includes(required)) failures.push(`README missing: ${required}`);
-}
+const index = fs.readFileSync(path.join(ROOT, 'EVIDENCE.md'), 'utf8');
+if (!readme.includes('assets/profile-cinema/research-radar-cinematic.gif')) failures.push('README cinematic cover missing');
+if (!index.includes(document.sourceRegistry.version)) failures.push('EVIDENCE.md registry version missing');
 for (const project of document.projects) {
-  if (!readme.includes(project.releaseUrl)) failures.push(`README missing release: ${project.slug}`);
+  if (!index.includes(project.releaseUrl)) failures.push(`EVIDENCE.md missing release: ${project.slug}`);
 }
 
 if (failures.length) {
