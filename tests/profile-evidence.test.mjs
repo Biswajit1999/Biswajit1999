@@ -31,9 +31,11 @@ test('claim boundaries reject over-interpretation', () => {
   }
 });
 
-test('README distinguishes verified evidence from discovery links', () => {
+test('profile cover links the cinematic radar and keeps research provenance in the dedicated index', () => {
   const readme = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
-  assert.match(readme, /Verified Research Evidence/);
-  assert.match(readme, /discovery-only/);
-  assert.match(readme, /7 verified upstream records/);
+  const index = fs.readFileSync(path.join(ROOT, 'EVIDENCE.md'), 'utf8');
+  assert.match(readme, /assets\\/profile-cinema\\/research-radar-cinematic\\.gif/);
+  for (const project of loadEvidence().projects) {
+    assert.ok(index.includes(project.releaseUrl), project.slug);
+  }
 });
